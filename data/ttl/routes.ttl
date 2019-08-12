@@ -1,0 +1,4187 @@
+@prefix route: <http://example.com/routes/> .
+@prefix agency: <http://example.com/agencies/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+route:OCE669665  rdfs:label  "Le Mans-Laval" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105903  rdfs:label  "[AM23] PARIS - CREIL" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87681007-87682005
+        rdfs:label    "Corbeil-Essonnes - Melun" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286518-87286625
+        rdfs:label    "Seclin - Templeuve" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141002-87144451
+        rdfs:label    "Nancy-Ville - Remiremont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629114  rdfs:label  "Sarlat - Bergerac - Bordeaux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725926  rdfs:label  "Autun - Dijon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87545756-87393314
+        rdfs:label    "Châteaudun - Rambouillet" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637120  rdfs:label  "Car LONGUYON - MONTMEDY" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713040-87713859
+        rdfs:label    "Dijon-Ville - Is-sur-Tille" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE464859  rdfs:label  "Cars Réguliers Mommenheim-Bouxwiller" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342048-87345009
+        rdfs:label    "Achiet - Douai" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE27  rdfs:label  "Nantes - Saint-Gilles-Croix-de-Vie - Pornic" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105893  rdfs:label  "[AM06] PARIS - CREPY - SOISSONS - LAON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1474033  rdfs:label  "[AM22C] PARIS - CREIL - AMIENS / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE156708  rdfs:label  "Le Puy - Lyon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE626  rdfs:label  "Avignon-Port Bou" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87641001
+        rdfs:label    "Bordeaux-St-Jean - Montluçon-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144006-87185249
+        rdfs:label    "Epinal - Lure" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE805848  rdfs:label  "Res-Dol-Din" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645686  rdfs:label  "FECAMP LE HAVRE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817866  rdfs:label  "Châteauroux - Le Blanc - Poitiers CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE616986  rdfs:label  "Cars Réguliers Mulhouse - St Louis - Bâle" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87756486-87756056
+        rdfs:label    "Menton - Nice-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637207  rdfs:label  "FECAMP BREAUTE ROUTIER REGULIER" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384864  rdfs:label  "Aurillac / Figeac / Capdenac" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE317  rdfs:label  "NICE/TENDE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE200733  rdfs:label  "Mulhouse - Bâle Omnibus" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87595827
+        rdfs:label    "Bordeaux-St-Jean - Sarlat" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87318964-87751008
+        rdfs:label    "Avignon-TGV - Marseille-St-Charles" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87671016
+        rdfs:label    "Bordeaux-St-Jean - Mont-de-Marsan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87215665-87212027
+        rdfs:label    "Diemeringen - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE726006  rdfs:label  "Paris Lyon - Laroche (omnibus)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87481788-87471003
+        rdfs:label    "Le Croisic - Rennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE584  rdfs:label  "(Lx) / Caen / St Lo / Coutances / Granville (Rennes)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87474007-87473223
+        rdfs:label    "Brest - Lannion" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE331  rdfs:label  "Sarreguemines-Béning -Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE6  rdfs:label  "Rennes - Vannes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE629127  rdfs:label  "Cars Communay Sérézin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87215012-87193615
+        rdfs:label    "Sarrebourg - Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142026-87142125
+        rdfs:label    "Bricon - Culmont-Chalindrey" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213165-87212027
+        rdfs:label    "Obermodern - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746008-87746305
+        rdfs:label    "Annecy - La Roche-sur-Foron" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE160689  rdfs:label  "Macon - Valence - (Pierrelatte)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725907  rdfs:label  "Paray-le-Monial - Moulins-sur-Allier" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87698555-87764308
+        rdfs:label    "Le-Teil-Centre - Pierrelatte" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87191114-87175778
+        rdfs:label    "Hagondange - Verdun" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725921  rdfs:label  "Dijon - Chalon - Mâcon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701653  rdfs:label  "REIMS-LAON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342014-87317586
+        rdfs:label    "Arras - Boulogne Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE22  rdfs:label  "Nantes - Saint-Nazaire - Le Croisic" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226026  rdfs:label  "Pontarlier - Frasne - Vallorbe" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87215665-87212142
+        rdfs:label    "Diemeringen - Mommenheim" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87697128
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Lyon-Part-Dieu-Gare-Rou" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140661  rdfs:label  "ligne routière Mende Le Puy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87543017-87576009
+        rdfs:label    "Aubrais-(les) - Vierzon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE104653  rdfs:label  "LIMOGES - EYMOUTIERS - USSEL - CLERMONT FD" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE123  rdfs:label  "Tours- Chateau Du Loir- Le Mans" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87192286-87192237
+        rdfs:label    "Morhange - Rémilly" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE829898  rdfs:label  "Cars Réguliers Saverne - Lutzelbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1281991  rdfs:label  "PARIS STRASBOURG TER GE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE597  rdfs:label  "Woerth - Lauterbourg - Strasbourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817861  rdfs:label  "Dourdan - Chateaudun CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87193615-87212027
+        rdfs:label    "Sarreguemines - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE156693  rdfs:label  "Cars Macon - Bourg-en-Bresse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213611-87213421
+        rdfs:label    "Bischwiller - Soultz-sous-Forêts" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697675  rdfs:label  "LILLE-VALENCIENNES-AULNOYE-HIRSON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87276725-87276469
+        rdfs:label    "Chambly - Persan-Beaumont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87718007-87743005
+        rdfs:label    "Besançon-Viotte - Bourg-en-Bresse" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1121941  rdfs:label  "Aillevillers -  Belfort" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87716464-87144014
+        rdfs:label    "Bruyères Chanzy Gare - St-Dié-des-Vosges" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713008-87713859
+        rdfs:label    "Dijon-Porte-Neuve - Is-sur-Tille" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637146  rdfs:label  "Car ST DIE - EPINAL" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629108  rdfs:label  "Bordeaux - Agen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1  rdfs:label  "Rennes - Brest" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209976  rdfs:label  "Commentry / Montluçon / Vierzon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-82006030-87192039
+        rdfs:label    "Bettembourg - Metz-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE164707  rdfs:label  "Cars Grenoble - Gap - Briancon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE99  rdfs:label  "La Roche sur Yon - Bressuire - Saumur - Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE180694  rdfs:label  "Bus 4726 4724 1240 4723 4727 1260 4728 Toulouse -LNN SSTL- Luchon Pau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105887  rdfs:label  "[AM01] AMIENS - ALBERT" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701666  rdfs:label  "BUS TER CHALONS-LANGRES" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE67  rdfs:label  "Lyon - (LTP) - Chambéry - Modane" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE617093  rdfs:label  "Strasbourg - Sélestat via Molsheim" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144006-87141002
+        rdfs:label    "Epinal - Nancy-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87484006-87487009
+        rdfs:label    "Angers-St-Laud - Thouars" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE35  rdfs:label  "Paris-Le Mans" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE600930  rdfs:label  "Cars Réguliers Strasbourg -Haguenau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE428859  rdfs:label  "Cars Volvic / St Gervais" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE424860  rdfs:label  "Cars St Gervais / St Eloy / Montluçon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE357  rdfs:label  "Dijon-Culmont-Neufchateau-Toul- Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226021  rdfs:label  "Besançon - Morteau - La Chaux de Fonds" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673004-87672279
+        rdfs:label    "Bayonne - Puyoô" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142026-87142000
+        rdfs:label    "Bricon - Chaumont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE685637  rdfs:label  "Les Arcs - Vintimille" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE200741  rdfs:label  "Strasbourg - Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE325  rdfs:label  "Saarbrücken-Forbach-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212142-80253914
+        rdfs:label    "Mommenheim - Saarbrücken /Sarrebruck" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697688  rdfs:label  "LILLE-LENS (Via DON)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673202-87671008
+        rdfs:label    "Dax - Tarbes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87192039-87191007
+        rdfs:label    "Metz-Ville - Thionville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87276691-87296004
+        rdfs:label    "Compiègne - St Quentin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4620  rdfs:label  "Toulouse / Mazamet" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE697624  rdfs:label  "ROUEN-AMIENS-DOUAI-LILLE (Multi)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1337993  rdfs:label  "Besançon-Le Locle" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342006-87342337
+        rdfs:label    "Béthune - St Pol sur Ternoise" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1522080  rdfs:label  "BUS TER-CHARLEVILLE-HIRSON" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87611483-87611004
+        rdfs:label    "Latour-de-Carol-Enveitg - Toulouse-Matabiau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE869850  rdfs:label  "Clamecy - Corbigny" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-82006030-87141002
+        rdfs:label    "Bettembourg - Nancy-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE600929  rdfs:label  "Cars Réguliers Haguenau - Niederbronn - Bitche" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87597120-87576009
+        rdfs:label    "Argenton-sur-Creuse - Vierzon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE653580  rdfs:label  "GIVERNY" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160697  rdfs:label  "Cars Lyon - Grenoble" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725915  rdfs:label  "Auxerre - Clamecy - Corbigny" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE48  rdfs:label  "Annecy - Chambéry" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87335521-87556506
+        rdfs:label    "Grenoble-Gare-Routière - Valence-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873859  rdfs:label  "CAR-LILLE-DUNKERQUE" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87747402-87723494
+        rdfs:label    "Grenoble U.-Gières - St-André-le-Gaz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87444067-87701797
+        rdfs:label    "Bayeux - Colleville-sur-Mer" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1494032  rdfs:label  "ARRAS / LILLE EUROPE / DUNKERQUE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645731  rdfs:label  " Toulouse / Figeac " ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE16  rdfs:label  "Nantes - Redon - Rennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE647  rdfs:label  "Villefranche-La Tour de Carol" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637330  rdfs:label  "Wissembourg - Strasbourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87317057
+        rdfs:label    "Boulogne Ville - Rang du Fl. Verton Ber." ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE104647  rdfs:label  "LIMOGES - PERIGUEUX - BORDEAUX" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87116582-87113001
+        rdfs:label    "Château-Thierry - Paris-Est" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE30  rdfs:label  "Nantes - Redon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87743005-87722025
+        rdfs:label    "Bourg-en-Bresse - Lyon-Perrache" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87182063
+        rdfs:label    "Belfort-Ville - Mulhouse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1465995  rdfs:label  "Cars Arvant / Aurillac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817855  rdfs:label  "Tours - Chateauroux CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212142-87213165
+        rdfs:label    "Mommenheim - Obermodern" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87318964-87765735
+        rdfs:label    "Avignon-TGV - Carpentras" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384853  rdfs:label  "Clermont Fd / Aurillac (ligne 2)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE4619  rdfs:label  "Toulouse / Latour de Carol" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156687  rdfs:label  "Cars Lyon - Annecy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87611533-87611004
+        rdfs:label    "Ax-les-Thermes - Toulouse-Matabiau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE633127  rdfs:label  "DUNKERQUE-CALAIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE144650  rdfs:label  "ligne routière Béziers Bédarieux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87743005-87723197
+        rdfs:label    "Bourg-en-Bresse - Lyon-Part-Dieu" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87761783-87761007
+        rdfs:label    "Crest - Valence-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142224-87171009
+        rdfs:label    "Bologne - Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE697637  rdfs:label  "AMIENS-BOULOGNE-CALAIS (Multi)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE232738  rdfs:label  "Cars Mâcon - Lyon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-82001000-87192039
+        rdfs:label    "Luxembourg - Metz-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE420859  rdfs:label  "Cars Clermont Fd / Ussel / Mauriac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE596933  rdfs:label  "Cars Réguliers Mulhouse-Belfort" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105905  rdfs:label  "[AM24C] AMIENS - ABBEVILLE / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87615286-87775007
+        rdfs:label    "Carcassonne - Nîmes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE849853  rdfs:label  "Ligne 32 Tram" ;
+        <Route Type>  "0" ;
+        agency:       "OCESN" .
+
+route:OCE629116  rdfs:label  "Pau - Oloron - Bedous" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE180688  rdfs:label  "Bus 4736 Rodez Séverac Millau St Rome de Cernon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725928  rdfs:label  "Etang - Autun" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209984  rdfs:label  "PARIS-CHARTRES-NOGENT" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87715102-87743633
+        rdfs:label    "Andelot - St-Claude" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE669681  rdfs:label  "Le Mans - Nogent" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87761874-87763029
+        rdfs:label    "Luc-en-Diois - Valence-TGV" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87697136-87723494
+        rdfs:label    "Lyon-Perrache-Gare-Rout - St-André-le-Gaz" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105895  rdfs:label  "[AM12C] CREIL - ST QUENTIN / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87613109-87613091
+        rdfs:label    "Capdenac - Figeac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141150-87171009
+        rdfs:label    "Lunéville - Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE372847  rdfs:label  "Autocars L'Aigle / Surdon / Alençon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140636  rdfs:label  "Cars Bellegarde - Chamonix" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE649569  rdfs:label  "Dijon / Clermont Multi-Activités" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87184408
+        rdfs:label    "Belfort-Ville - Meroux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87214528-87212027
+        rdfs:label    "Entzheim-Aéroport - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87543009
+        rdfs:label    "Bourges - Orléans" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645688  rdfs:label  "ELBEUF YVETOT" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817868  rdfs:label  "Sancerre - Cosne CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE616988  rdfs:label  "Cars Réguliers Ingwiller - Wimmenau - Lichtenberg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE144649  rdfs:label  "Cars Lyon - Lozanne - Paray-Le-Monial" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE11  rdfs:label  "Guingamp - Paimpol" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142125-87118000
+        rdfs:label    "Culmont-Chalindrey - Troyes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87592006-87594093
+        rdfs:label    "Limoges-Bénédictins - Ussel" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE610  rdfs:label  "Paris-Vaug. / Dreux / Argentan / Granville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295600-87295014
+        rdfs:label    "Aulnoye Aymeries - Jeumont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87175042-87175018
+        rdfs:label    "Bar-le-Duc - Revigny" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87415018-87411017
+        rdfs:label    "Dieppe - Rouen-Rive-Droite" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87743716-87726000
+        rdfs:label    "Ambérieu-en-Bugey - St-Etienne-Châteaucreux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87113001-87144279
+        rdfs:label    "Paris-Est - Vittel" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87696013-87697128
+        rdfs:label    "Bourg-En-Bresse-Gare-Ro - Lyon-Part-Dieu-Gare-Rou" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342006-87286005
+        rdfs:label    "Béthune - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817850  rdfs:label  "Tours - Chinon CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE726008  rdfs:label  "Dijon - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE8  rdfs:label  "Saint Brieuc - Brest" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734699-87723197
+        rdfs:label    "Le Puy-en-Velay - Lyon-Part-Dieu" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637135  rdfs:label  "Car METZ - LONGWY" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637181  rdfs:label  "Car SARREBOURG - MORHANGE" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87215459-87212225
+        rdfs:label    "Sarre-Union - Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87743005-87743534
+        rdfs:label    "Bourg-en-Bresse - Oyonnax" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE213  rdfs:label  "Lyon - Grenoble" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286005-87343004
+        rdfs:label    "Lille Flandres - Valenciennes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629111  rdfs:label  "Bordeaux - Hendaye - Irun" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725923  rdfs:label  "Nevers - Luzy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE56  rdfs:label  "Lyon - Bourg-en-Bresse (via Villars)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE484866  rdfs:label  "Cars Clermont / Le Puy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873867  rdfs:label  "CAR-LILLE-VALENCIENNES-AULNOYE-JEUMONT-VALENCIENNES-CAMBRAI" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142125-87171009
+        rdfs:label    "Culmont-Chalindrey - Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87192039-87141002
+        rdfs:label    "Metz-Ville - Nancy-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1109946  rdfs:label  "[IC356] PARIS - AMIENS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87716464-87716449
+        rdfs:label    "Bruyères Chanzy Gare - Saint-Léonard Centre" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE24  rdfs:label  "Le Mans - Angers - Nantes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE655  rdfs:label  "ROMANS/BRIANCON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105890  rdfs:label  "[AM05C] LAON - HIRSON / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE70  rdfs:label  "Chambéry - St Marcellin - Valence" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817849  rdfs:label  "Blois - Limeray CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313874-87345009
+        rdfs:label    "Amiens - Douai" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE252844  rdfs:label  "Cars Grenoble - Chambery" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE368849  rdfs:label  "Autocars Bayeux / Lison / St-Lô / Coutances / Folligny / Granville / Pontorson" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE125  rdfs:label  "Orleans-Vierzon-Chateauroux- Argenton-Limoges" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE773848  rdfs:label  "Luneville-Nancy-Bar Le Duc-Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE171  rdfs:label  "Lannion - Brest" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817863  rdfs:label  "Thésée - St Aignan - Romorantin CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87192039-80253914
+        rdfs:label    "Metz-Ville - Saarbrücken /Sarrebruck" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4627  rdfs:label  "Toulouse / Narbonne / Nimes / Cerbère" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87696005-87543009
+        rdfs:label    "Nevers - Orléans" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87726471-87726448
+        rdfs:label    "Boën - Montbrison" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342014-87286005
+        rdfs:label    "Arras - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156695  rdfs:label  "Cars St-Claude - Oyonnax - Bourg - Lyon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCEZW-87576025-87576215
+        rdfs:label    "Romorantin-Blanc-Argent - Valençay" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212142-87193615
+        rdfs:label    "Mommenheim - Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87756056-83045013
+        rdfs:label    "Nice-Ville - Ventimiglia-Stazione" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE633135  rdfs:label  "LILLE-DOUAI-VALENCIENNES-CAMBRAI" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE360  rdfs:label  "Reims-Bar Le Duc-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE697677  rdfs:label  "AULNOYE-LAON (Multi)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE535  rdfs:label  "Mulhouse - Kruth (73500)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE581  rdfs:label  "(Evx) / Lisieux / Caen  / Cherbourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141002-87175778
+        rdfs:label    "Nancy-Ville - Verdun" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637148  rdfs:label  "Car BUSSANG - REMIREMONT" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE645595  rdfs:label  "Commentry / Montluçon / Vierzon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209978  rdfs:label  "Orléans - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142000-87713040
+        rdfs:label    "Chaumont - Dijon-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141150-87141002
+        rdfs:label    "Lunéville - Nancy-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734350-87775007
+        rdfs:label    "Langogne - Nîmes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746701-87746479
+        rdfs:label    "Chedde - St-Gervais-L-B-Le-Fayet" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184440-87184408
+        rdfs:label    "Delle - Meroux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87783282-87783605
+        rdfs:label    "Marvejols - Mende" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180696  rdfs:label  "Bus 4703 4702 4701 (TE) Montauban Cahors Brive" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105889  rdfs:label  "[AM05] LAON - HIRSON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701668  rdfs:label  "BUS TER TROYES - LAROCHES-MIGENNES" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE617095  rdfs:label  "Strasbourg - Rothau - Saales -St Dié" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160686  rdfs:label  "Lyon - Marseille Multi Activités" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144154-87144014
+        rdfs:label    "Bruyères (Vosges) - St-Dié-des-Vosges" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE37  rdfs:label  "Tours -Caen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE240  rdfs:label  "Vallorcine - St-Gervais" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141002-87141044
+        rdfs:label    "Nancy-Ville - Toul" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE600932  rdfs:label  "Cars Réguliers Strasbourg-Lauterbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213611-87213058
+        rdfs:label    "Bischwiller - Haguenau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87783605-87775007
+        rdfs:label    "Mende - Nîmes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE83  rdfs:label  "La Rochelle Porte Dauphine - Saintes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87276006-87296004
+        rdfs:label    "Creil - St Quentin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144410-87144006
+        rdfs:label    "Arches - Epinal" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713412-87743633
+        rdfs:label    "Dole-Ville - St-Claude" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87696005
+        rdfs:label    "Bourges - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140644  rdfs:label  "Cars Chambéry - Chamonix" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701650  rdfs:label  "CHARLEVILLE-GIVET" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342014-87345009
+        rdfs:label    "Arras - Douai" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873862  rdfs:label  "CAR-AMIENS-BOULOGNE-CALAIS (Multi)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87698555
+        rdfs:label    "Avignon-Centre - Le-Teil-Centre" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87764357
+        rdfs:label    "Avignon-Centre - Bollène-la-Croisière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1109941  rdfs:label  "Decize - Nevers - Moulins" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817876  rdfs:label  "Romorantin - Vierzon CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE359  rdfs:label  "St-Dié-Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226023  rdfs:label  "Belfort - Vesoul et Belfort - Epinal" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295063-87286005
+        rdfs:label    "Hirson - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645618  rdfs:label  "Grenoble - Veynes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE592927  rdfs:label  "Cars Reguliers Bressuire - Saumur" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87318964-87765503
+        rdfs:label    "Avignon-TGV - Cavaillon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE327  rdfs:label  "Treves-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1077888  rdfs:label  "USSEL BORDEAUX" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE633148  rdfs:label  "LILLE-DON-BETHUNE-ST POL" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1353992  rdfs:label  "aulnoye feignies mons" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1469997  rdfs:label  "Car VITTEL-CONTREX-NANCY" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87543017-87571000
+        rdfs:label    "Aubrais-(les) - Tours" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673202-87677005
+        rdfs:label    "Dax - Hendaye" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE116623  rdfs:label  "LIMOGES - POITIERS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE516  rdfs:label  "Paris / Rouen R.D." ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713040-87171009
+        rdfs:label    "Dijon-Ville - Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212027-87215699
+        rdfs:label    "Strasbourg - Tieffenbach-Struth" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1337995  rdfs:label  "Dole- Mouchard- Saint Claude" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE633130  rdfs:label  "BETHUNE-LENS-LILLE (via libercourt)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213785-87212027
+        rdfs:label    "Ingwiller - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313874-87343004
+        rdfs:label    "Amiens - Valenciennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87701789-87444067
+        rdfs:label    "Arromanches-les-Bains - Bayeux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775007-87611004
+        rdfs:label    "Nîmes - Toulouse-Matabiau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1117945  rdfs:label  "Roanne -  Lyon - Bourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160699  rdfs:label  "Cars Bellegarde - Evian" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142125-87175000
+        rdfs:label    "Culmont-Chalindrey - St-Dizier" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1209973  rdfs:label  "Tours Chinon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87751008-87751206
+        rdfs:label    "Marseille-St-Charles - Sisteron" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637111  rdfs:label  "Car NANCY - METZ" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87764308-87761494
+        rdfs:label    "Pierrelatte - St-Peray" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE18  rdfs:label  "Nantes - Quimper - Brest" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87304642
+        rdfs:label    "Bourges - Issoudun-Place-de-la-G." ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144006-87185595
+        rdfs:label    "Epinal - Luxeuil-les-Bains" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180691  rdfs:label  "Bus 4705 (TE) Villefranche de R (FIG) (BLG) Aubin Viviez Decazeville Rodez" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140657  rdfs:label  "ligne routière St Chély Millau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE64  rdfs:label  "Ambérieu - Chambéry" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87645002-87734871
+        rdfs:label    "Aurillac - Massiac-Blesle" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE104649  rdfs:label  "LIMOGES - UZERCHE - BRIVE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87471003-87471359
+        rdfs:label    "Rennes - Retiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817857  rdfs:label  "Bourges - St Amand CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734251-87775007
+        rdfs:label    "Arvant - Nîmes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE156689  rdfs:label  "Cars Lyon - Ambérieu - St Rambert en B" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-85000109-87182139
+        rdfs:label    "Basel-SBB - St-Louis (Haut-Rhin)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE633129  rdfs:label  "LILLE-CALAIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE532923  rdfs:label  "Ussel - Brive" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817871  rdfs:label  "Mondoubleau - Vendome CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE354  rdfs:label  "Lunéville-Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213785-87212142
+        rdfs:label    "Ingwiller - Mommenheim" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE572944  rdfs:label  "Ussel - Bort les Orgues" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1518126  rdfs:label  "BUS TER CHALONS EN CHAMPAGNE - VERDUN" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87698555-87556522
+        rdfs:label    "Le-Teil-Centre - Montélimar-G-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87698332-87721605
+        rdfs:label    "Lyon-St-Paul-Quai-Bondy - Sain-Bel" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105907  rdfs:label  "[AM25C] ABBEVILLE - LE TREPORT / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87182238-87182063
+        rdfs:label    "Altkirch - Mulhouse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629118  rdfs:label  "St Mariens - Bordeaux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209986  rdfs:label  "Voves - Chartres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE705966  rdfs:label  "MARSEILLE/MIRAMAS via PDB" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105897  rdfs:label  "[AM19] PARIS - PERSAN - BEAUVAIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87775213
+        rdfs:label    "Alès - Génolhac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE77  rdfs:label  "Poitiers - Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE484887  rdfs:label  "Cars Le Puy / Firminy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE202  rdfs:label  "Roanne - St-Etienne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87756833-87756882
+        rdfs:label    "Breil-sur-Roya - Tende" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87722025-87726000
+        rdfs:label    "Lyon-Perrache - St-Etienne-Châteaucreux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87725002-87694307
+        rdfs:label    "Chalon-sur-Saône - Montchanin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87194001-87191007
+        rdfs:label    "Longwy - Thionville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140638  rdfs:label  "Cars Grenoble - Chamonix" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87201541
+        rdfs:label    "Bourges - Châteauroux Gare Rout." ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87747246
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Rives" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE13  rdfs:label  "Quimper - Brest" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226017  rdfs:label  "Belfort - Besançon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE644  rdfs:label  "Nîmes-Le Grau du Roi" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE540928  rdfs:label  "Cars Montluçon / Gannat / Clermont Fd" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873870  rdfs:label  "CAR-BUSIGNY-AULNOYE-JEUMONT(p)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE200737  rdfs:label  "Haguenau- Strasbourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295600-87296244
+        rdfs:label    "Aulnoye Aymeries - Busigny" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1530067  rdfs:label  "Langogne La Bastide Mende" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87775171
+        rdfs:label    "Alès - La Bastide-St-Laurent" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE168688  rdfs:label  "Cars Lyon St-Paul - Sain Bel" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87556506-87763300
+        rdfs:label    "Valence-Gare-Routière - Veynes-Dévoluy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1465992  rdfs:label  "Cars Moulins / Vichy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295014-87286005
+        rdfs:label    "Jeumont - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE136641  rdfs:label  "Limoges - Felletin - Montluçon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317263-87286302
+        rdfs:label    "Calais Ville - Hazebrouck" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE633124  rdfs:label  "LILLE-COMINES" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87172007-87172254
+        rdfs:label    "Charleville-Mézières - Sedan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313874-87317263
+        rdfs:label    "Amiens - Calais Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734004-87395822
+        rdfs:label    "Clermont-Ferrand - St-Flour-les-Allées" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4630  rdfs:label  "Toulouse / Agen / Bordeaux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87335521-87763300
+        rdfs:label    "Grenoble-Gare-Routière - Veynes-Dévoluy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87271007
+        rdfs:label    "Boulogne Ville - Paris Gare du Nord" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87672774-87672006
+        rdfs:label    "Bedous - Pau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87672774-87672725
+        rdfs:label    "Bedous - Oloron-Ste-Marie" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637137  rdfs:label  "Car BITCHE - SARREGUEMINES" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697634  rdfs:label  "Cars Lyon - St Etienne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE809861  rdfs:label  "Saint Brieuc - Lannion" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105902  rdfs:label  "[AM22] PARIS - CREIL - AMIENS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87144006
+        rdfs:label    "Belfort-Ville - Epinal" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1021888  rdfs:label  "PARIS-DIJON - MULHOUSE - TER GRAND EST" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE12627  rdfs:label  "Villefranche - Lyon - Vienne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE629113  rdfs:label  "Bordeaux - Mont de Marsan" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701657  rdfs:label  "CGV-REIMS (Navettes)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725925  rdfs:label  "Decize - Nevers - Cosne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87696013-87743534
+        rdfs:label    "Bourg-En-Bresse-Gare-Ro - Oyonnax" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1209981  rdfs:label  "Tours - Saumur" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87172270-87172254
+        rdfs:label    "Rethel - Sedan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87747006-87723494
+        rdfs:label    "Grenoble - St-André-le-Gaz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-85000109-87182014
+        rdfs:label    "Basel-SBB - Colmar" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87747006
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Grenoble" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1109948  rdfs:label  "[IC376] PARIS - ST QUENTIN" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE26  rdfs:label  "Nantes-La Roche sur Yon - Les Sables" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105892  rdfs:label  "[AM02] AMIENS - SERQUEUX" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763003-87751370
+        rdfs:label    "Gap - Meyrargues" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140665  rdfs:label  "ligne routière Alès Nîmes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1474032  rdfs:label  "[AM16C] AMIENS - COMPIEGNE / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE156707  rdfs:label  "Firminy - St-Etienne - Lyon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295600-87296004
+        rdfs:label    "Aulnoye Aymeries - St Quentin" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE909879  rdfs:label  "Is-sur-Tille - Dijon - Les-Laumes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87645002-87613109
+        rdfs:label    "Aurillac - Capdenac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384849  rdfs:label  "Clermont Fd / Vic / Issoire / Brioude (ligne 1)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645685  rdfs:label  "LE HAVRE ROLLEVILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87276113-87271007
+        rdfs:label    "Chantilly-Gouvieux - Paris Gare du Nord" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87756833-87756056
+        rdfs:label    "Breil-sur-Roya - Nice-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87193664-87212142
+        rdfs:label    "Kalhausen - Mommenheim" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817865  rdfs:label  "Eguzon - Argenton - Châteauroux CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE616985  rdfs:label  "Cars Réguliers Colmar - Bollwiller - Mulhouse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE572938  rdfs:label  "Chinon - Thouars" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4629  rdfs:label  "Toulouse / Brive" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156697  rdfs:label  "Cars Ambérieu - Chambéry" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE200732  rdfs:label  "Mulhouse - Colmar Omnibus" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673202-87672006
+        rdfs:label    "Dax - Pau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673004-87677005
+        rdfs:label    "Bayonne - Hendaye" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE362  rdfs:label  "Verdun-Conflans-Hagondange-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE697679  rdfs:label  "BUSIGNY-AULNOYE-JEUMONT(p)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763607-87751370
+        rdfs:label    "Briançon - Meyrargues" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342014-87317263
+        rdfs:label    "Arras - Calais Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1101902  rdfs:label  "[AM01C] AMIENS - ALBERT / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE583  rdfs:label  "Lisieux / Trouville-Deauville / Dives-Cabourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87773002-87783241
+        rdfs:label    "Montpellier-Saint-Roch - St-Chély-d'Apcher" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE777845  rdfs:label  "CHALONS-CULMONT" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE829852  rdfs:label  "Cars Reguliers L 06  (Nantes - Clisson - Cholet)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE5  rdfs:label  "Rennes - Saint Malo" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87745497-87746479
+        rdfs:label    "Annemasse - St-Gervais-L-B-Le-Fayet" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE669677  rdfs:label  "Nantes-Angers-Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87276691-87276782
+        rdfs:label    "Compiègne - Noyon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87718239-87718833
+        rdfs:label    "Lons-le-Saunier - Mouchard" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637164  rdfs:label  "Car NANCY - NEUFCHATEAU" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629126  rdfs:label  "Cars St Priest - St Pierre de Chandieu" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180698  rdfs:label  "Bus 4712 Toulouse Mazamet" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87182014-87212027
+        rdfs:label    "Colmar - Strasbourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87734004
+        rdfs:label    "Alès - Clermont-Ferrand" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212027-87213744
+        rdfs:label    "Strasbourg - Wingen-sur-Moder" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87717751-87215459
+        rdfs:label    "Herbitzheim Mairie - Sarre-Union" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725906  rdfs:label  "Nevers - Paray - Lyon (Multi-Activités)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87481002-87471003
+        rdfs:label    "Nantes - Rennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87296012-87171009
+        rdfs:label    "Laon - Reims" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725952  rdfs:label  "BORDEAUX-PERIGUEUX-BRIVE-TULLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE85  rdfs:label  "La Rochelle - Angoulême" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87281006
+        rdfs:label    "Boulogne Ville - Dunkerque" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746008-87697128
+        rdfs:label    "Annecy - Lyon-Part-Dieu-Gare-Rou" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87413013-87411017
+        rdfs:label    "Le Havre - Rouen-Rive-Droite" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140646  rdfs:label  "Cars Lyon - Oyonnax - St-Claude - Morez" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701652  rdfs:label  "CHATEAU THIERRY-CHALONS-EPERNAY-REIMS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87751404-87763003
+        rdfs:label    "Aix-en-Provence - Gap" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87747006-87747246
+        rdfs:label    "Grenoble - Rives" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE652  rdfs:label  "Béziers-Neussargues" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1109943  rdfs:label  "Limoges -Périgueux - Agen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87413542-87413013
+        rdfs:label    "Fécamp - Le Havre" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE16635  rdfs:label  "Lyon - (LTP) - Chambéry - Bourg-St-Maurice" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226025  rdfs:label  "Belfort - Delle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-85001289-87184408
+        rdfs:label    "Boncourt - Meroux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140660  rdfs:label  "ligne routière La Bastide Langogne Mende" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87116137-87116160
+        rdfs:label    "Longueville (S.-et-M.) - Provins" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87215459-87193615
+        rdfs:label    "Sarre-Union - Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144006-87192039
+        rdfs:label    "Epinal - Metz-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156702  rdfs:label  "Clermont-Fd - Lyon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE329  rdfs:label  "Thionville-Longwy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE104652  rdfs:label  "BRIVE - TULLE - USSEL - CLERMONT FD" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87597062-87576009
+        rdfs:label    "Issoudun - Vierzon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1469999  rdfs:label  "Car CULMONT CHALINDREY-VITTEL" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87615161-87615260
+        rdfs:label    "Limoux - Quillan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE596  rdfs:label  "Metzeral - Colmar" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817860  rdfs:label  "Droué-Courtalain-Chartres CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE343  rdfs:label  "IC MARSEILLE/SISTERON/BRIANCON + GAP/BRI" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87444711-87571000
+        rdfs:label    "Alençon - Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE4624  rdfs:label  "Rodez / Millau / Tournemire-Roquefort" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87192039-87175778
+        rdfs:label    "Metz-Ville - Verdun" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87697128-87726000
+        rdfs:label    "Lyon-Part-Dieu-Gare-Rou - St-Etienne-Châteaucreux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1337997  rdfs:label  "Navettes Franois-Villers-Neuilly" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE685599  rdfs:label  "Nantes - Sablé - Rennes (Virgule)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87171553-87171009
+        rdfs:label    "Epernay - Reims" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212142-87215699
+        rdfs:label    "Mommenheim - Tieffenbach-Struth" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87491449-87491803
+        rdfs:label    "Cognac - Royan" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87185249
+        rdfs:label    "Belfort-Ville - Lure" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87718239
+        rdfs:label    "Belfort-Ville - Lons-le-Saunier" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87175042-87174003
+        rdfs:label    "Bar-le-Duc - Châlons-en-Champagne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637145  rdfs:label  "Car THIONVILLE - AUDUN LE ROMAN" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629107  rdfs:label  "Bayonne - St Jean Pied de Port" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87595009-87594499
+        rdfs:label    "Périgueux - Tulle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725919  rdfs:label  "Dijon - Bourg en Bresse (Multi-Activités)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209975  rdfs:label  "Salbris - Romorantin - Luçay le Mâle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87615542-87611004
+        rdfs:label    "Mazamet - Toulouse-Matabiau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87723197-87686667
+        rdfs:label    "Lyon-Part-Dieu - Paris-Bercy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87761718-87556506
+        rdfs:label    "St-Marcellin - Valence-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE98  rdfs:label  "Thouars - Saumur - Angers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144006-87144451
+        rdfs:label    "Epinal - Remiremont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140659  rdfs:label  "ligne routière Mende Marvejols St chély" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87575845-87575001
+        rdfs:label    "Lussac-les-Châteaux - Poitiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701665  rdfs:label  "BUS TER SEDAN-LA FERTE SUR CHIERS" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87586545
+        rdfs:label    "Bordeaux-St-Jean - Marmande" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87697128-87556506
+        rdfs:label    "Lyon-Part-Dieu-Gare-Rou - Valence-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE619  rdfs:label  "Strasbourg - Molsheim" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87615286-87615260
+        rdfs:label    "Carcassonne - Quillan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE199  rdfs:label  "St-Etienne - Lyon - Ambérieu" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE34  rdfs:label  "Orléans - Tours - Nantes - Le Croisic" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1097905  rdfs:label  "St Brieuc-Dinan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87296244-87295014
+        rdfs:label    "Busigny - Jeumont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE80  rdfs:label  "Poitiers - La Rochelle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317065-87343004
+        rdfs:label    "Etaples Le Touquet - Valenciennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817859  rdfs:label  "Montargis - Gien CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87335521-87697128
+        rdfs:label    "Grenoble-Gare-Routière - Lyon-Part-Dieu-Gare-Rou" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140641  rdfs:label  "Cars Grenoble - Annonay" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384857  rdfs:label  "Nevers / Moulins / St Germain / Clermont (ligne 9 )" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87764308
+        rdfs:label    "Avignon-Centre - Pierrelatte" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713040-87723197
+        rdfs:label    "Dijon-Ville - Lyon-Part-Dieu" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE496863  rdfs:label  "Cars Grenoble - Aubenas" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87588954-87296442
+        rdfs:label    "Laon-Gare-Routière-Poma - Tergnier" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1226020  rdfs:label  "Belfort - Lyon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817873  rdfs:label  "Salbris - Valençay" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE356  rdfs:label  "Pont-St-Vincent- Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE16630  rdfs:label  "Mulhouse ville Freiburg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87696005-87576009
+        rdfs:label    "Nevers - Vierzon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87747626-87335521
+        rdfs:label    "Clelles-Mens - Grenoble-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87613109-87611004
+        rdfs:label    "Capdenac - Toulouse-Matabiau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE577  rdfs:label  "Strasbourg - Offenburg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE200740  rdfs:label  "Strasbourg - Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE324  rdfs:label  "Luxembourg-Longwy-Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE468861  rdfs:label  "Cars Réguliers Saverne-Hattmatt" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87185009
+        rdfs:label    "Belfort-Ville - Vesoul" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1209988  rdfs:label  "Paris-Orléans-Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87201541-87689935
+        rdfs:label    "Châteauroux Gare Rout. - Issoudun-Jardin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697623  rdfs:label  "ARRAS-DOUAI-LILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87672725-87672253
+        rdfs:label    "Oloron-Ste-Marie - Orthez" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE600928  rdfs:label  "Cars Réguliers Haguenau - Wissembourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87586008-87581009
+        rdfs:label    "Agen - Bordeaux-St-Jean" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105899  rdfs:label  "[AM20C] CREIL - BEAUVAIS / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE79  rdfs:label  "Poitiers - Angoulême" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160696  rdfs:label  "SAG - Rives - Grenoble Gières - Chambéry" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE204  rdfs:label  "Macon - Bourg-en-Bresse - Ambérieu" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87742007
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Modane" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87765107
+        rdfs:label    "Avignon-Centre - Orange" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87723478
+        rdfs:label    "Chambéry-Chal.-les-Eaux - La Tour-du-Pin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87193250-87193615
+        rdfs:label    "Bening - Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87406991-87212225
+        rdfs:label    "Sarralbe (Hôtel de Vill - Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87697136-87698803
+        rdfs:label    "Lyon-Perrache-Gare-Rout - Vienne-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629078  rdfs:label  "Car SARREGUEMINES - BENING" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE646  rdfs:label  "Perpignan-Villefranche" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87726729-87722025
+        rdfs:label    "Firminy - Lyon-Perrache" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87175042-87171553
+        rdfs:label    "Bar-le-Duc - Epernay" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701660  rdfs:label  "CHARLEVILLE - THIONVILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE61  rdfs:label  "Annemasse - Annecy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87345520-87286005
+        rdfs:label    "Cambrai Ville - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142224-87142000
+        rdfs:label    "Bologne - Chaumont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734251-87645002
+        rdfs:label    "Arvant - Aurillac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE200739  rdfs:label  "Strasbourg - Saverne - Sarrebourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713040-87696005
+        rdfs:label    "Dijon-Ville - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645674  rdfs:label  "Marseille / Nîmes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87184440
+        rdfs:label    "Belfort-Ville - Delle" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE156710  rdfs:label  "Cars Villefranche - Lyon - Vienne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1465994  rdfs:label  "Cars Brive / St Denis Près Martel / Aurillac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817854  rdfs:label  "Loches - Chateauroux CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87718833
+        rdfs:label    "Belfort-Ville - Mouchard" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE384852  rdfs:label  "Clermont Fd / Le Puy (ligne 3)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734004-87775007
+        rdfs:label    "Clermont-Ferrand - Nîmes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673004-87672006
+        rdfs:label    "Bayonne - Pau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4618  rdfs:label  "Toulouse / Auch" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673004-87673202
+        rdfs:label    "Bayonne - Dax" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE532920  rdfs:label  "Montluçon - Guéret" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE633126  rdfs:label  "LILLE-DUNKERQUE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE288845  rdfs:label  "Verdun-Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87447110-87478263
+        rdfs:label    "Coutances - Pontorson-Mt-St-Michel" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87335521
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Grenoble-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87276691-87276006
+        rdfs:label    "Compiègne - Creil" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE532896  rdfs:label  "Cars Ambert / Le Puy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87775007
+        rdfs:label    "Alès - Nîmes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87691949-87672006
+        rdfs:label    "Bidos - Pau" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697682  rdfs:label  "LENS-DOUAI-VALENCIENNES" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105904  rdfs:label  "[AM24] AMIENS - ABBEVILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87223263
+        rdfs:label    "Boulogne Ville - Lille Europe" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87174003-87171009
+        rdfs:label    "Châlons-en-Champagne - Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE629115  rdfs:label  "Tarbes - Pau - Bayonne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE625078  rdfs:label  "Car SARREBOURG-IGNEY AVRICOURT-LUNEVILLE" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180687  rdfs:label  "Bus 4709 4711 Toulouse Albi Carmaux Rodez" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725927  rdfs:label  "Autun - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701659  rdfs:label  "CGV-SEDAN" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209983  rdfs:label  "Droué - Chartres - Courtalain" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE28  rdfs:label  "Angers - Cholet" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105894  rdfs:label  "[AM12] PARIS - COMPIEGNE - ST QUENTIN - BUSIGNY" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1474034  rdfs:label  "[AM19C] PARIS - PERSAN - BEAUVAIS / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87171330-87171009
+        rdfs:label    "Fismes - Reims" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE372846  rdfs:label  "Autocars Argentan / Briouze / Bagnoles / Flers / Vire / Folligny / Granville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE160691  rdfs:label  "Cars Aix Chambéry - Modane" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140635  rdfs:label  "Cars Chambéry - Aix-Les-Bains - Annecy" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87747402-87761007
+        rdfs:label    "Grenoble U.-Gières - Valence-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645687  rdfs:label  "ROUEN LE HAVRE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817867  rdfs:label  "Tours - Vendôme - Chateaudun - Chartres CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE616987  rdfs:label  "Cars Réguliers Mulhouse - Kruth" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE10  rdfs:label  "Dol - Saint Brieuc" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313874-87411017
+        rdfs:label    "Amiens - Rouen-Rive-Droite" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87576322
+        rdfs:label    "Bourges - St-Amand-Montrond-Orval" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87223263-87317057
+        rdfs:label    "Lille Europe - Rang du Fl. Verton Ber." ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156699  rdfs:label  "Cars Lyon - (LTP - AMB) - Chambéry" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE200734  rdfs:label  "Strasbourg - Mulhouse - Bâle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87592006-87641001
+        rdfs:label    "Limoges-Bénédictins - Montluçon-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746008-87745497
+        rdfs:label    "Annecy - Annemasse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-80143099-87212027
+        rdfs:label    "Offenburg - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE669703  rdfs:label  "Tours-Paray-Lyon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741470-87723494
+        rdfs:label    "Pont-de-Beauvoisin - St-André-le-Gaz" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1345991  rdfs:label  "Sarlat - Périgueux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87696146-87696005
+        rdfs:label    "Cosne-sur-Loire - Nevers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87683573-87713040
+        rdfs:label    "Auxerre-St-Gervais - Dijon-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE7  rdfs:label  "Rennes - Saint Brieuc" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645599  rdfs:label  "Cars Travaux Colmar - Metzeral" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE621078  rdfs:label  "Car THIONVILLE - APACH" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1470001  rdfs:label  "PARIS-CHALONS-MULHOUSE (TRAVAUX)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87718007
+        rdfs:label    "Belfort-Ville - Besançon-Viotte" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE633121  rdfs:label  "LILLE-TOURCOING-MOUSCRON courtrai" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286005-87342337
+        rdfs:label    "Lille Flandres - St Pol sur Ternoise" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286583-87286518
+        rdfs:label    "Orchies - Seclin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763607-87763003
+        rdfs:label    "Briançon - Gap" ;
+        <Route Type>  "3" ;
+        agency:       "OCENI" .
+
+route:OCESN-87478404-87396002
+        rdfs:label    "Laval - Le Mans" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1506043  rdfs:label  "Lorient-Quimperlé" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE669661  rdfs:label  "Nantes - Luçon - La Rochelle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87175042-87141002
+        rdfs:label    "Bar-le-Duc - Nancy-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763607-87751206
+        rdfs:label    "Briançon - Sisteron" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725908  rdfs:label  "Digoin - Paray-le-Monial - Lozanne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87212142-87213744
+        rdfs:label    "Mommenheim - Wingen-sur-Moder" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87645002-87594002
+        rdfs:label    "Aurillac - Brive-la-Gaillarde" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637180  rdfs:label  "Car BRUYERES - LUNEVILLE" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE8627  rdfs:label  "Dijon - Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE476859  rdfs:label  "Cars Réguliers Strasbourg-Sélestat via Erstein" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629110  rdfs:label  "Bordeaux - Arcachon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87594002-87613422
+        rdfs:label    "Brive-la-Gaillarde - Rodez" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140648  rdfs:label  "SAUMUR - LES SABLES D'OLONNES" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE873866  rdfs:label  "CAR-LILLE-DON-BETHUNE-ST POL" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87345009-87286005
+        rdfs:label    "Douai - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87471334-87471003
+        rdfs:label    "Janzé - Rennes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763003-87751321
+        rdfs:label    "Gap - Manosque-Gréoux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1109945  rdfs:label  "[IC351] PARIS - AMIENS - BOULOGNE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87575704-87575001
+        rdfs:label    "Mignaloux-Nouaillé - Poitiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE717917  rdfs:label  "Chalon - Montchanin - Paray" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1478028  rdfs:label  "Les Aubrais-Château Gaillard" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140662  rdfs:label  "ligne routière Carcassonne Quillan" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87318964-87753004
+        rdfs:label    "Avignon-TGV - Miramas" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156704  rdfs:label  "Cars Clermont-Fd - Montbrison - St-Etienne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE252843  rdfs:label  "Cars Grenoble - Valence" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1341991  rdfs:label  "Tours-Vendôme-Châteaudun-Paris Austerlitz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87345520-87343004
+        rdfs:label    "Cambrai Ville - Valenciennes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817862  rdfs:label  "Nouan - Lamotte - Romorantin CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE388859  rdfs:label  "Thiers / Clermont (ligne 6)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87615286-87615161
+        rdfs:label    "Carcassonne - Limoux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE572935  rdfs:label  "Cars Clermont Fd / St Etienne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4626  rdfs:label  "Toulouse / Luchon / Pau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87751008
+        rdfs:label    "Avignon-Centre - Marseille-St-Charles" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637179  rdfs:label  "Car EPINAL-MIRECOURT-CONTREX-NEUFCHATEAU" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1121942  rdfs:label  "Pontarlier - Frasne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE472859  rdfs:label  "Cars Réguliers Sewen-Cernay" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87751321-87751008
+        rdfs:label    "Manosque-Gréoux - Marseille-St-Charles" ;
+        <Route Type>  "2" ;
+        agency:       "OCENI" .
+
+route:OCE2  rdfs:label  "Rennes - Quimper" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209977  rdfs:label  "Tours - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317263-87317057
+        rdfs:label    "Calais Ville - Rang du Fl. Verton Ber." ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734004-87734475
+        rdfs:label    "Clermont-Ferrand - Thiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87174003-87116582
+        rdfs:label    "Châlons-en-Champagne - Château-Thierry" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87444000-87411017
+        rdfs:label    "Caen - Rouen-Rive-Droite" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87300863-87718007
+        rdfs:label    "Besançon-Franche-Comté - Besançon-Viotte" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734699-87726000
+        rdfs:label    "Le Puy-en-Velay - St-Etienne-Châteaucreux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645562  rdfs:label  "Nîmes Clermont Multi Activité" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105888  rdfs:label  "[AM03] ST QUENTIN - BUSIGNY" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87783605
+        rdfs:label    "Alès - Mende" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180695  rdfs:label  "Bus 4733 4734 Toulouse Ax - Foix Tarascon Latour de Carol" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-82001000-87191007
+        rdfs:label    "Luxembourg - Thionville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701667  rdfs:label  "BUS TER TROYES - CHAUMONT" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1474028  rdfs:label  "[AM124C] ALBERT - AMIENS - ABBEVILLE / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87556506
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Valence-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE941884  rdfs:label  "Cars Valence - Die" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE600931  rdfs:label  "Cars Réguliers Strasbourg - Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE8622  rdfs:label  "IV MARSEILLE / MONTPELLIER / NARBONNE / CERBERE Multi activités" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313510-87271007
+        rdfs:label    "Beauvais-Gare-SNCF - Paris Gare du Nord" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE384859  rdfs:label  "Clermont Fd / Durtol / Volvic (ligne 14)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE50  rdfs:label  "Lyon - Genève" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE873861  rdfs:label  "CAR-RANG DU FLIERS-CALAIS" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87193714-87212225
+        rdfs:label    "Sarralbe - Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775171-87783605
+        rdfs:label    "La Bastide-St-Laurent - Mende" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817875  rdfs:label  "Valençay - Luçay le Male CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE358  rdfs:label  "Remiremont-Epinal-Nancy-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226022  rdfs:label  "Dole - Pontarlier et Besançon - Dole - St Claude" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645617  rdfs:label  "Grenoble - Gap - Briancon Multi Activités" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1381993  rdfs:label  "Bus Région Rouen Pont Audemer" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87571000
+        rdfs:label    "Bourges - Tours" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1097897  rdfs:label  "Chateaubriant - Janze" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87182014-87182816
+        rdfs:label    "Colmar - Metzeral" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE326  rdfs:label  "Sarrebourg-Rémilly-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87583005-87575001
+        rdfs:label    "Angoulême - Poitiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1077887  rdfs:label  "MONTLUCON BORDEAUX" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1469996  rdfs:label  "Car CHARMES-MIRECOURT-VITTEL" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763466-87763003
+        rdfs:label    "Embrun - Gap" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE340  rdfs:label  "MARSEILLE/AIX/PERTUIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE116622  rdfs:label  "LIMOGES - ANGOULEME" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE4621  rdfs:label  "Toulouse / Rodez" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1337994  rdfs:label  "Besançon- Mouchard- Lons Le Saunier" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697671  rdfs:label  "ARRAS-ST POL-ETAPLE-CALAIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637174  rdfs:label  "Car CREUTZWALD - THIONVILLE" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1397993  rdfs:label  "Cars Reguliers L 08 (La Roche - Les Sables d'O.)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87281006-87286005
+        rdfs:label    "Dunkerque - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE629104  rdfs:label  "Bordeaux - Dax - Tarbes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87761007
+        rdfs:label    "Avignon-Centre - Valence-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725916  rdfs:label  "Auxerre - Avallon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701648  rdfs:label  "PARIS-ST DIZIER-BAR LE DUC" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE49  rdfs:label  "Lyon - Bellegarde - Evian - St-Gervais" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87296244-87296004
+        rdfs:label    "Busigny - St Quentin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE164703  rdfs:label  "Cars Lyon - Bourg-en-Bresse (via Villars)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734459-87734475
+        rdfs:label    "Pont-de-Dore - Thiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734251-87734319
+        rdfs:label    "Arvant - Langeac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE17  rdfs:label  "Le Mans-Rennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645732  rdfs:label  " Toulouse / Figeac / Aurillac" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725930  rdfs:label  "Nevers - Moulins" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180690  rdfs:label  "Bus 4706+4708 Gaillac Laguépie Figeac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140656  rdfs:label  "ligne routière Mende Clermont Ferrand" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE63  rdfs:label  "Annecy - St Gervais" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87723494
+        rdfs:label    "Chambéry-Chal.-les-Eaux - St-André-le-Gaz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE104648  rdfs:label  "LIMOGES - ST YRIEIX - BRIVE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE616  rdfs:label  "Rouen R.D. / Caen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746008-87746479
+        rdfs:label    "Annecy - St-Gervais-L-B-Le-Fayet" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE31  rdfs:label  "Le Mans - Le Croisic" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141150-87215012
+        rdfs:label    "Lunéville - Sarrebourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87743716-87723197
+        rdfs:label    "Ambérieu-en-Bugey - Lyon-Part-Dieu" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87723494-87723320
+        rdfs:label    "St-André-le-Gaz - Vénissieux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1333993  rdfs:label  "[AM124] ALBERT - AMIENS - ABBEVILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87444711-87396606
+        rdfs:label    "Alençon - Château-du-Loir" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87584268-87584052
+        rdfs:label    "Bergerac - Libourne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87783282-87775007
+        rdfs:label    "Marvejols - Nîmes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87345009-87343004
+        rdfs:label    "Douai - Valenciennes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384854  rdfs:label  "Montluçon / Commentry / Gannat / Clermont Fd (ligne 8)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87286005
+        rdfs:label    "Boulogne Ville - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE616990  rdfs:label  "Cars Réguliers Strasbourg - Rothau - Saales" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1141946  rdfs:label  "Cars Reguliers L 24 (Le Mans - Alencon)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342014-87342337
+        rdfs:label    "Arras - St Pol sur Ternoise" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87396002-87394296
+        rdfs:label    "Le Mans - Nogent-le-Rotrou" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE681596  rdfs:label  "Chateau du Loir - Le Mans - Alençon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE232739  rdfs:label  "Cars Lyon St Paul - Lozanne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87696005-87571000
+        rdfs:label    "Nevers - Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87281006-87295063
+        rdfs:label    "Dunkerque - Hirson" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645588  rdfs:label  "Cars Travaux Strasbourg - Haguenau - Wissembourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87734350
+        rdfs:label    "Alès - Langogne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697684  rdfs:label  "BUSIGNY-CAMBRAI-DOUAI-LILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87645002-87645507
+        rdfs:label    "Aurillac - Neussargues" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1349993  rdfs:label  "maubeuge jeumont namur" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160703  rdfs:label  "Cars Ambérieu - Bourg-en-Bresse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87193615-87212225
+        rdfs:label    "Sarreguemines - Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629117  rdfs:label  "Périgueux - Bordeaux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE180689  rdfs:label  "Bus 4710 4707 (Brive) Gramat Figeac Rodez" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317263-87317065
+        rdfs:label    "Calais Ville - Etaples Le Touquet" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87783001-87783241
+        rdfs:label    "Millau - St-Chély-d'Apcher" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87182063-87212027
+        rdfs:label    "Mulhouse - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE705965  rdfs:label  "MARSEILLE/AVIGNON/ORANGE via RGC, ARS et CNV" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105896  rdfs:label  "[AM16] AMIENS - COMPIEGNE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE76  rdfs:label  "Poitiers - Châtellerault" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286005-88857040
+        rdfs:label    "Lille Flandres - Mouscron / Moeskroen" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE201  rdfs:label  "Roanne - Lyon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160693  rdfs:label  "Cars (Aix) - Chambéry- Bourg-St-Maurice" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87747402-87747246
+        rdfs:label    "Grenoble U.-Gières - Rives" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87741009-87761007
+        rdfs:label    "Chambéry-Chal.-les-Eaux - Valence-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140637  rdfs:label  "Cars Annecy - Genève" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184200-87184002
+        rdfs:label    "Bas-Evette - Belfort-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763003-87335521
+        rdfs:label    "Gap - Grenoble-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE528888  rdfs:label  "Cars Réguliers Sélestat - Ribeauvillé - (Riquewihr)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87743005
+        rdfs:label    "Belfort-Ville - Bourg-en-Bresse" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734699-87722025
+        rdfs:label    "Le Puy-en-Velay - Lyon-Perrache" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE90  rdfs:label  "Royan - Angoulême" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1301991  rdfs:label  "Chartres Le Mans Angers-St-Laud" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE16626  rdfs:label  "Commentry / Montluçon / Vierzon / Bourges (ligne 11)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817869  rdfs:label  "Aubigny - Gien CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE616989  rdfs:label  "Cars Réguliers Strasbourg - Barr - Sélestat" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE12  rdfs:label  "Guingamp - Carhaix" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE643  rdfs:label  "Carcassonne-Quillan" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87718007-87718239
+        rdfs:label    "Besançon-Viotte - Lons-le-Saunier" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87723429-87741009
+        rdfs:label    "Bourgoin-Jallieu - Chambéry-Chal.-les-Eaux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87172130-87172080
+        rdfs:label    "Givet - Revin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87575332-87575001
+        rdfs:label    "Anché-Voulon - Poitiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87783605-87783241
+        rdfs:label    "Mende - St-Chély-d'Apcher" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87185249-87185009
+        rdfs:label    "Lure - Vesoul" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87144006-87716829
+        rdfs:label    "Epinal - Laveline-d-Bruy. Mairie" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87406991-87193615
+        rdfs:label    "Sarralbe (Hôtel de Vill - Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-82001000-87141002
+        rdfs:label    "Luxembourg - Nancy-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87491803-87491001
+        rdfs:label    "Royan - Saintes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1101906  rdfs:label  "[AM03C] ST QUENTIN - BUSIGNY / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286435-87345025
+        rdfs:label    "Don Sainghin - Lens" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87765735
+        rdfs:label    "Avignon-Centre - Carpentras" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE587  rdfs:label  "Le Mans / Alençon / Argentan  / Caen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817851  rdfs:label  "Tours - Chateau du Loir CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87713578-87694307
+        rdfs:label    "Chagny - Montchanin" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697619  rdfs:label  "LILLE-TOURNAI-ASCQ-ORCHIES" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87764308-87556506
+        rdfs:label    "Pierrelatte - Valence-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE128635  rdfs:label  "Rouen R.D. / Dieppe" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE556927  rdfs:label  "Cars Vichy / Ambert" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87345025-87345256
+        rdfs:label    "Lens - Libercourt" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE216736  rdfs:label  "CARPENTRAS / AVIGNON TGV" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637136  rdfs:label  "Car SARREBOURG - SARREGUEMINES" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87182014-87182063
+        rdfs:label    "Colmar - Mulhouse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105901  rdfs:label  "[AM21C] BEAUVAIS - ABANCOURT - LE TREPORT / CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1125944  rdfs:label  "VITTEL -PARIS-EST" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE89  rdfs:label  "Royan - Niort" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746008-87747006
+        rdfs:label    "Annecy - Grenoble" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE629112  rdfs:label  "Bordeaux - Le Verdon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE701656  rdfs:label  "CGV-REIMS-DIJON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725924  rdfs:label  "Etang - Autun" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87481648-87471003
+        rdfs:label    "Châteaubriant - Rennes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1209980  rdfs:label  "ORL-TOURS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87694307-87696005
+        rdfs:label    "Montchanin - Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87745497-87745679
+        rdfs:label    "Annemasse - Evian-les-Bains" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873868  rdfs:label  "CAR-LILLE-VALENCIENNES-AULNOYE-HIRSON" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1109947  rdfs:label  "[IC372] PARIS - MAUBEUGE - CAMBRAI" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE25  rdfs:label  "Nantes - Cholet" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105891  rdfs:label  "[AM04] AMIENS - TERGNIER - LAON - ST QUENTIN" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE164687  rdfs:label  "Laval-Vitré-Rennes" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673202-87671339
+        rdfs:label    "Dax - Lourdes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873850  rdfs:label  "Laroche - Dijon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87681007-87681452
+        rdfs:label    "Corbeil-Essonnes - La Ferté-Alais" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE616984  rdfs:label  "Cars Réguliers Colmar - Munster - Metzeral" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384862  rdfs:label  "Clermont Fd / Nimes (ligne 4)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE200731  rdfs:label  "Strasbourg - Sélestat Omnibus" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE361  rdfs:label  "Verdun-Onville-Metz" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342006-87345025
+        rdfs:label    "Béthune - Lens" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE536  rdfs:label  "Paris Evreux Caen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE669700  rdfs:label  "Le Mans-Caen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213611-87213470
+        rdfs:label    "Bischwiller - Wissembourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87584052
+        rdfs:label    "Bordeaux-St-Jean - Libourne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87296244-87317263
+        rdfs:label    "Busigny - Calais Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE4  rdfs:label  "Redon - Quimper" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209979  rdfs:label  "PAZ-ORL" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE669676  rdfs:label  "Nantes-Saumur" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313874-87411470
+        rdfs:label    "Amiens - Serqueux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87194001-87192039
+        rdfs:label    "Longwy - Metz-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87182667-87182568
+        rdfs:label    "Lutterbach (Haut-Rhin) - Thann" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE645564  rdfs:label  "CHATEAUROUX - ST SEBASTIEN - LIMOGES" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE637163  rdfs:label  "Car METZ - CJ - HAGONDANGE - VERDUN" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE180697  rdfs:label  "Bus 4713 (TE) Castelsarrasin Agen" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701669  rdfs:label  "BUS TER TROYES - NOGENT-SUR-SEINE" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87718007-87718833
+        rdfs:label    "Besançon-Viotte - Mouchard" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160687  rdfs:label  "(Macon) - Lyon - Avignon Multi Activités" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725905  rdfs:label  "Paris Bercy - Dijon - Lyon (Multi-Activités)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87342014-87295063
+        rdfs:label    "Arras - Hirson" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE873849  rdfs:label  "Auxerre - Dijon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE84  rdfs:label  "La Rochelle - Bordeaux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142125-87713040
+        rdfs:label    "Culmont-Chalindrey - Dijon-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87761783-87763029
+        rdfs:label    "Crest - Valence-TGV" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE140645  rdfs:label  "Cars Chambéry - Annecy - Evians" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE701651  rdfs:label  "FISMES - REIMS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE52  rdfs:label  "Lyon - Annecy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE873863  rdfs:label  "CAR-LILLE-CALAIS" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87594499
+        rdfs:label    "Bordeaux-St-Jean - Tulle" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE629083  rdfs:label  "Car LONGWY - LONGUYON" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1226024  rdfs:label  "Besançon Viotte - Besançon TGV" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE16634  rdfs:label  "Lyon - (LTP - AMB) - Chambéry" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE651  rdfs:label  "Nîmes-Mende-St Chély d'Apcher" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCEZW-87543165-87576215
+        rdfs:label    "Salbris - Valençay" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87722025-87722587
+        rdfs:label    "Lyon-Perrache - Vienne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87673004-87673723
+        rdfs:label    "Bayonne - St-Jean-Pied-de-Port" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE156701  rdfs:label  "Cars Roanne - Lyon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE104651  rdfs:label  "LIMOGES -GUERET - MONTLUCON" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87184002-87142000
+        rdfs:label    "Belfort-Ville - Chaumont" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87481002-87486571
+        rdfs:label    "Nantes - St-Gilles-Croix-de-Vie" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87746784-87746479
+        rdfs:label    "Chamonix-Mont-Blanc - St-Gervais-L-B-Le-Fayet" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE517  rdfs:label  "Rouen Serqueux (Gisors) Amiens Lille (Le Tréport)" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE4623  rdfs:label  "Brive / Rodez" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142125-87182063
+        rdfs:label    "Culmont-Chalindrey - Mulhouse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87345025-87286005
+        rdfs:label    "Lens - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1325991  rdfs:label  "Paris-Montargis-Nevers" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE156691  rdfs:label  "Cars Roanne - St-Etienne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1337996  rdfs:label  "Frasne- Vallorbe" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87761494-87556506
+        rdfs:label    "St-Peray - Valence-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE697673  rdfs:label  "LILLE-VALENCIENNES-AULNOYE-JEUMONT-VALENCIENNES-CAMBRAI" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141002-87191007
+        rdfs:label    "Nancy-Ville - Thionville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87175042-87141044
+        rdfs:label    "Bar-le-Duc - Toul" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87296012
+        rdfs:label    "Boulogne Ville - Laon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295063-87588954
+        rdfs:label    "Hirson - Laon-Gare-Routière-Poma" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87116301-87430819
+        rdfs:label    "Coulommiers - La-Ferté-Gaucher-Centre" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637144  rdfs:label  "Car METZ - VERDUN" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629106  rdfs:label  "Limoges -Périgueux - Agen" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87444000-87571000
+        rdfs:label    "Caen - Tours" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE725918  rdfs:label  "Seurre - Bourg-en-Bresse" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1209974  rdfs:label  "Tours Loches" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87586008-87586545
+        rdfs:label    "Agen - Marmande" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCEZW-87576025-87543165
+        rdfs:label    "Romorantin-Blanc-Argent - Salbris" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE260844  rdfs:label  "Cars Valence - St-Etienne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE222  rdfs:label  "Bellegarde - Genève" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE180692  rdfs:label  "Bus 4737 (TE) Souillac (BLG) (RDZ) St Denis Près Martel (BLG)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE456859  rdfs:label  "Cars Bort Les Orgues / Neussargues" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87594002-87613109
+        rdfs:label    "Brive-la-Gaillarde - Capdenac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE124628  rdfs:label  "Directs  NA AL MDE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE33  rdfs:label  "Thouars - La-Roche-sur-Yon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87592006-87575001
+        rdfs:label    "Limoges-Bénédictins - Poitiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763003-87751008
+        rdfs:label    "Gap - Marseille-St-Charles" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286302-87286005
+        rdfs:label    "Hazebrouck - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140640  rdfs:label  "Cars Lyon - Chamonix" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE384856  rdfs:label  "Clermont Fd pass nord / sud" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1045887  rdfs:label  "Neustadt - Wissembourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87592543-87575001
+        rdfs:label    "Le Dorat - Poitiers" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87697128-87698803
+        rdfs:label    "Lyon-Part-Dieu-Gare-Rou - Vienne-Gare-Routière" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87681007-87681635
+        rdfs:label    "Corbeil-Essonnes - Coudray-Montceaux" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87756056-87756882
+        rdfs:label    "Nice-Ville - Tende" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE600  rdfs:label  "Sarrebrucken - Strasbourg Krimmeri" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1321991  rdfs:label  "Saumur-Angers-Cholet" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE817872  rdfs:label  "Chateau Renault - Vendome CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE355  rdfs:label  "Reims-Bar Le Duc-Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87317586-87317263
+        rdfs:label    "Boulogne Ville - Calais Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141002-87171009
+        rdfs:label    "Nancy-Ville - Reims" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE685635  rdfs:label  "IV Marseille - Nice - Menton - Vintimille" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87581009-87592006
+        rdfs:label    "Bordeaux-St-Jean - Limoges-Bénédictins" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87343103-87343004
+        rdfs:label    "St-Amand-les-Eaux - Valenciennes" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE468860  rdfs:label  "Cars Réguliers Frohmuhl-Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE323  rdfs:label  "Luxembourg-Metz-Nancy" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87141002-87144014
+        rdfs:label    "Nancy-Ville - St-Dié-des-Vosges" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295600-87286005
+        rdfs:label    "Aulnoye Aymeries - Lille Flandres" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1105908  rdfs:label  "[AM21A] PARIS - BEAUVAIS - LE TREPORT + TALM" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE697686  rdfs:label  "ST QUENTIN-BUSIGNY-CAMBRAI-DOUAI-LILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87193714-87193615
+        rdfs:label    "Sarralbe - Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87335521-87763029
+        rdfs:label    "Grenoble-Gare-Routière - Valence-TGV" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87763607-87751008
+        rdfs:label    "Briançon - Marseille-St-Charles" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87142000-87142125
+        rdfs:label    "Chaumont - Culmont-Chalindrey" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE629119  rdfs:label  "Angoulême - Bordeaux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1209987  rdfs:label  "Paris-Bourges-Montluçon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87286005-87317057
+        rdfs:label    "Lille Flandres - Rang du Fl. Verton Ber." ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87576207-87641001
+        rdfs:label    "Bourges - Montluçon-Ville" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313510-87313668
+        rdfs:label    "Beauvais-Gare-SNCF - Méru" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87313668-87271007
+        rdfs:label    "Méru - Paris Gare du Nord" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213058-87213470
+        rdfs:label    "Haguenau - Wissembourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87743005-87718239
+        rdfs:label    "Bourg-en-Bresse - Lons-le-Saunier" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637171  rdfs:label  "Car LA BRESSE - REMIREMONT" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1105898  rdfs:label  "[AM20] CREIL - BEAUVAIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE600927  rdfs:label  "Cars Réguliers Strasbourg-Sarreguemines" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734004-87713040
+        rdfs:label    "Clermont-Ferrand - Dijon-Ville" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE203  rdfs:label  "Montbrison - St-Etienne" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE160695  rdfs:label  "Lyon - St-André-le-Gaz - Grenoble Gières" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE881849  rdfs:label  "EPERNAY - CHARLEVILLE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE140639  rdfs:label  "Cars Grenoble - Annemasse - Evian" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE725913  rdfs:label  "Paris Bercy - Auxerre - Morvan" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE46  rdfs:label  "Geneve - Evian - Annecy - Valence - Avignon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1226018  rdfs:label  "Besançon - Dijon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87742007-87742320
+        rdfs:label    "Modane - St-Jean-de-Maurienne-A." ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-85010082-87747006
+        rdfs:label    "Genève - Grenoble" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE14  rdfs:label  "Rennes - Auray - Quiberon" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87734004-87734319
+        rdfs:label    "Clermont-Ferrand - Langeac" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87722025-87743534
+        rdfs:label    "Lyon-Perrache - Oyonnax" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE540929  rdfs:label  "Cars Montluçon / Vierzon" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE873871  rdfs:label  "LILLE-DOUAI-VALENCIENNES-CAMBRAI" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE200738  rdfs:label  "Niederbronn - Strasbourg" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE468859  rdfs:label  "Cars Réguliers St-Dié-Ste Marie aux Mines-Sélestat" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87213611-87213256
+        rdfs:label    "Bischwiller - Niederbronn" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE464860  rdfs:label  "Cars St Chély / St Flour / Arvant" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87295600-87295063
+        rdfs:label    "Aulnoye Aymeries - Hirson" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE336  rdfs:label  "MARSEILLE/LES ARCS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE645673  rdfs:label  "IV  MARSEILLE / NIMES / MONTPELLIER / NARBONNE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE1465993  rdfs:label  "Cars Aurillac / Figeac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE817853  rdfs:label  "Tours - Loches CAR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87734319
+        rdfs:label    "Alès - Langeac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE829858  rdfs:label  "Cars Reguliers L 11  (Nantes - St Gilles Croix de Vie)" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87281006-87223263
+        rdfs:label    "Dunkerque - Lille Europe" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE633125  rdfs:label  "ARRAS-HAZEBROUCK-DUNKERQUE" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87765008-87611004
+        rdfs:label    "Avignon-Centre - Toulouse-Matabiau" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-80253914-87212027
+        rdfs:label    "Saarbrücken /Sarrebruck - Strasbourg" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE1377992  rdfs:label  "Toulouse / Perpignan / Cerbère" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87723197-87726000
+        rdfs:label    "Lyon-Part-Dieu - St-Etienne-Châteaucreux" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCESN-87281006-87295014
+        rdfs:label    "Dunkerque - Jeumont" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE697635  rdfs:label  "RANG DU FLIERS-CALAIS" ;
+        <Route Type>  "2" ;
+        agency:       "OCESN" .
+
+route:OCE889871  rdfs:label  "Cars travaux LYD - SAG - CR" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCESN-87775288-87734301
+        rdfs:label    "Alès - St-Georges-d'Aurac" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE637138  rdfs:label  "Car LUTZELBOURG - SARREBOURG" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
+
+route:OCE596931  rdfs:label  "Cars Réguliers Haguenau-Obermodern-Saverne" ;
+        <Route Type>  "3" ;
+        agency:       "OCESN" .
