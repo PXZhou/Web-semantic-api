@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: web-semantic-api
+    working_dir: /usr/src/web-semantic
+    ports:
+      - 8080:8080
