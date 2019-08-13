@@ -26,11 +26,9 @@ public class JsonService {
     public String JsonObjectToString(String fieldName, JSONObject jsonObject) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
 
-        JsonNode childNode = mapper.createObjectNode();
         JsonNode rootNode = mapper.createObjectNode();
 
-        ((ObjectNode) childNode).put(fieldName, String.valueOf(jsonObject));
-        ((ObjectNode) rootNode).set("obj", childNode);
+        ((ObjectNode) rootNode).put(fieldName, String.valueOf(jsonObject));
         return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(rootNode);
     }
 }

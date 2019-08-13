@@ -1,19 +1,18 @@
 package com.web.semantic.api.Controller;
 
+
 import com.web.semantic.api.Services.JsonService;
 import com.web.semantic.api.Services.QueryService;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import java.io.FileNotFoundException;
+import org.springframework.web.bind.annotation.*;
+
+
 import java.io.IOException;
 
-@Controller
+@RestController
 public class InformationsController {
 
     @Autowired
@@ -27,14 +26,19 @@ public class InformationsController {
         if (weather == null) {
             return ResponseEntity.notFound().build();
         } else {
-            return ResponseEntity.accepted().body(jsonService.JsonObjectToString("weather", weather));
+            return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", weather));
         }
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "stops/all", method = RequestMethod.GET)
-    public ResponseEntity<?> getAllStops() throws FileNotFoundException {
-        queryService.getAllStop();
-        return ResponseEntity.accepted().body("OK");
+    public ResponseEntity<?> getAllStops() throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getAllStop()));
+    }
+
+    @RequestMapping(value = "stops", method = RequestMethod.GET)
+    public ResponseEntity<?> getDetailsStop(@RequestParam("stop") String stop) throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getLagLong(stop)));
     }
 
     @RequestMapping(value = "information/city", method = RequestMethod.GET)
@@ -43,7 +47,7 @@ public class InformationsController {
         if (city == null) {
             return ResponseEntity.notFound().build();
         } else {
-            return ResponseEntity.accepted().body(jsonService.JsonObjectToString("weather", city));
+            return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", city));
         }
     }
 }
