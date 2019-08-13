@@ -1,0 +1,14 @@
+@prefix ex:    <http://example.com/agencies/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:OCENI  rdfs:langue  "fr" ;
+        rdfs:name    "-"@fr ;
+        rdfs:url     "http://www.ter-sncf.com" ;
+        <http://www.w3.org/2001/XMLSchema#timestamp>
+                "Europe/Paris" .
+
+ex:OCESN  rdfs:langue  "fr" ;
+        rdfs:name    "SNCF"@fr ;
+        rdfs:url     "http://www.ter-sncf.com" ;
+        <http://www.w3.org/2001/XMLSchema#timestamp>
+                "Europe/Paris" .

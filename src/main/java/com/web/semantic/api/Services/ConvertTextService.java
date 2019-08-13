@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class ConvertTextService {
 
     public void createFileAgency() {
-        File agency = new File("data\\ttl\\agency.ttl","data\\gtfs\\stops.txt");
+        File agency = new File("data\\ttl\\agency.ttl","data\\gtfs\\agency.txt");
         agency.generateAgency();
     }
 
@@ -15,7 +15,6 @@ public class ConvertTextService {
         File stopTimes = new File("data\\ttl\\stop_times.ttl","data\\gtfs\\stop_times.txt");
         stopTimes.generateStopTimes();
     }
-
     public void createFileStops() {
         File stop = new File("data\\ttl\\stops.ttl","data\\gtfs\\stops.txt");
         stop.generateStop();

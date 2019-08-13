@@ -13,12 +13,12 @@ import java.io.IOException;
 @Service
 public class JsonService {
 
-    public JSONObject getInformationsWeather(Double longitude, Double latitude) throws IOException {
+    public JSONObject getInformationsWeather(Double latitude, Double longitude) throws IOException {
         Informations infoWeather = new Informations(latitude, longitude);
         return infoWeather.infoWeather();
     }
 
-    public JSONObject getInformationsCity(Double longitude, Double latitude) throws IOException {
+    public JSONObject getInformationsCity(Double latitude, Double longitude) throws IOException {
         Informations infoCity = new Informations(latitude, longitude);
         return infoCity.infoCity();
     }

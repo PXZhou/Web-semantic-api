@@ -32,6 +32,7 @@ public class File {
     public static final String _RDFS_NS = "http://www.w3.org/2000/01/rdf-schema#";
     public static final String _TIMESTAMP_NS = "http://www.w3.org/2001/XMLSchema#timestamp";
 
+
     // Prefixes
     public static final String _EX_PREFIX = "ex";
     public static final String _TRIP_PREFIX = "trip";
@@ -49,6 +50,9 @@ public class File {
     public static final String _GEO_LAT = "http://www.w3.org/2003/01/geo/wgs84_pos#lat";
     public static final String _GEO_LONG = "http://www.w3.org/2003/01/geo/wgs84_pos#long";
     public static final String _GEO_SPATIAL_THING = "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing";
+    public static final String _RDFS_NAME = "http://www.w3.org/2000/01/rdf-schema#name";
+    public static final String _RDFS_URL = "http://www.w3.org/2000/01/rdf-schema#url";
+    public static final String _RDFS_LANGUE = "http://www.w3.org/2000/01/rdf-schema#langue";
 
     public String url_rdf;
     public String url_text;
@@ -65,10 +69,11 @@ public class File {
         stationGraph.setNsPrefix(_EX_PREFIX,_EX_NS_AGENCIES);
         stationGraph.setNsPrefix(_RDFS_PREFIX,_RDFS_NS);
 
-        Property name = stationGraph.createProperty("Name");
-        Property url = stationGraph.createProperty("Url");
-        Property timezone = stationGraph.createProperty("Timezone");
-        Property lang = stationGraph.createProperty("Langue");
+
+        Property name = stationGraph.createProperty(_RDFS_NAME);
+        Property url = stationGraph.createProperty(_RDFS_URL);
+        Property timezone = stationGraph.createProperty(_TIMESTAMP_NS);
+        Property lang = stationGraph.createProperty(_RDFS_LANGUE);
 
         CSVParser parser = CSVParser.create(this.url_text);
 

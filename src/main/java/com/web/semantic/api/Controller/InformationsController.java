@@ -20,6 +20,7 @@ public class InformationsController {
     @Autowired
     QueryService queryService;
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "information/weather", method = RequestMethod.GET)
     public ResponseEntity<?> getInformationWeather(@RequestParam("latitude") Double latitude, @RequestParam ("longitude") Double longitude) throws IOException {
         JSONObject weather = jsonService.getInformationsWeather(latitude,longitude);
@@ -36,11 +37,13 @@ public class InformationsController {
         return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getAllStop()));
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "stops", method = RequestMethod.GET)
     public ResponseEntity<?> getDetailsStop(@RequestParam("stop") String stop) throws IOException {
         return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getLagLong(stop)));
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "information/city", method = RequestMethod.GET)
     public ResponseEntity<?> getInformationCity(@RequestParam("latitude") Double latitude, @RequestParam ("longitude") Double longitude) throws IOException {
         JSONObject city = jsonService.getInformationsCity(latitude,longitude);

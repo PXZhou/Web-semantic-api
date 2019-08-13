@@ -50,6 +50,6 @@ public class Informations {
     }
 
     public JSONObject infoWeather() throws IOException, JSONException {
-        return readJsonFromUrl(_API_OPEN_WEATHER + "?lat=" + this.latitude + "&lon=" + this.longitude + "&appid=" + _KEY_API_OPEN_WEATHER + "&lang=fr");
+        return readJsonFromUrl(_API_OPEN_WEATHER + "?lat=" + this.latitude + "&lon=" + this.longitude + "&appid=" + _KEY_API_OPEN_WEATHER + "&lang=fr&units=metric");
     }
 }
