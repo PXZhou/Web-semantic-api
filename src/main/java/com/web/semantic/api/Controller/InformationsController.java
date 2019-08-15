@@ -56,6 +56,12 @@ public class InformationsController {
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "information/stop", method = RequestMethod.GET)
+    public ResponseEntity<?> getAllStopTimesFromStop(@RequestParam("id") String id) throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getStopTimesFromStop(id)));
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "stops", method = RequestMethod.GET)
     public ResponseEntity<?> getDetailsStop(@RequestParam("stop") String stop) throws IOException {
         return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getInformationFromStop(stop)));

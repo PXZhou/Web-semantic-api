@@ -68,6 +68,23 @@ public class QueryService {
         return details;
     }
 
+    public JSONObject getStopTimesFromStop(String stopId) throws FileNotFoundException {
+        QueryExecution qe = getResultSet(queryStopTimesByStopId(stopId), "data/ttl/stop_times.ttl");
+        ResultSet rs = qe.execSelect();
+        JSONObject details = new JSONObject();
+        ArrayList<JSONObject> listInformation = new ArrayList<>();
+        while (rs.hasNext()) {
+            QuerySolution qs = rs.next();
+            JSONObject oneStopTime = new JSONObject();
+            oneStopTime.put("arrival", qs.getLiteral("arrival").getLexicalForm());
+            oneStopTime.put("departure", qs.getLiteral("departure").getLexicalForm());
+            oneStopTime.put("trip", qs.getLiteral("trip").getLexicalForm());
+            listInformation.add(oneStopTime);
+        }
+        details.put("stop_times", listInformation);
+        return details;
+    }
+
     public JSONObject getRouteFromStop(String stopId) throws FileNotFoundException {
 
         QueryExecution qe = getResultSet(queryStopTimesByStopId(stopId), "data/ttl/stop_times.ttl");
@@ -114,9 +131,15 @@ public class QueryService {
         while (rsTrip.hasNext()) {
             QuerySolution qsTrip = rsTrip.next();
             JSONObject informationStopTimes = new JSONObject();
-            informationStopTimes.put("sequence", qsTrip.getLiteral("sequence").getLexicalForm());
             informationStopTimes.put("arrival", qsTrip.getLiteral("arrival").getLexicalForm());
             informationStopTimes.put("departure", qsTrip.getLiteral("departure").getLexicalForm());
+
+            QueryExecution qe = getResultSet(queryStopById(qsTrip.getLiteral("stop").getLexicalForm()), "data/ttl/stops.ttl");
+            ResultSet rs = qe.execSelect();
+            QuerySolution qs = rs.next();
+            informationStopTimes.put("name", qs.getLiteral("label").getLexicalForm());
+            qe.close();
+
             listInformationStopTimes.add(informationStopTimes);
         }
         qeStopTimes.close();
@@ -137,21 +160,6 @@ public class QueryService {
             information.put("service", qs.getLiteral("service").getLexicalForm());
             information.put("trip_id", qs.getLiteral("trip_id").getLexicalForm());
 
-//            QueryExecution qeStopTimes = getResultSet(queryStopTimesByTripId(qs.getLiteral("trip_id").getLexicalForm()), "data/ttl/stop_times.ttl");
-//            ResultSet rsTrip = qeStopTimes.execSelect();
-//
-//            ArrayList<JSONObject> listInformationStopTimes = new ArrayList<>();
-//
-//            while (rsTrip.hasNext()) {
-//                QuerySolution qsTrip = rsTrip.next();
-//                JSONObject informationStopTimes = new JSONObject();
-//                informationStopTimes.put("sequence", qsTrip.getLiteral("sequence").getLexicalForm());
-//                informationStopTimes.put("arrival", qsTrip.getLiteral("arrival").getLexicalForm());
-//                informationStopTimes.put("departure", qsTrip.getLiteral("departure").getLexicalForm());
-//                listInformationStopTimes.add(informationStopTimes);
-//            }
-//            qeStopTimes.close();
-//            information.put("stop_times", listInformationStopTimes);
             listInformation.add(information);
         }
         qe.close();
@@ -216,20 +224,31 @@ public class QueryService {
                 "  ?stop_times timestamp:departure_time ?departure.\n" +
                 "  ?stop_times rdfs:stop ?stop\n" +
                 "  FILTER (?stop =" + stopId + ")\n" +
-                "}\n ORDER BY ASC(?sequence) ASC(?arrival) " ;
+                "}\n ORDER BY ASC(?arrival) " ;
     }
 
     private String queryStopTimesByTripId(String tripId) {
         return prefix_rdfs + "\n" +
                 prefix_timestamp + "\n" +
                 prefix_stop_times + "\n" +
-                "SELECT Distinct ?sequence ?arrival ?departure\n" +
+                "SELECT Distinct ?stop ?arrival ?departure\n" +
                 "WHERE {\n" +
-                "  ?stop_times rdfs:stop-sequence ?sequence.\n" +
+                "  ?stop_times rdfs:stop ?stop.\n" +
                 "  ?stop_times rdfs:trip ?trip.\n" +
                 "  ?stop_times timestamp:arrival_time ?arrival.\n" +
                 "  ?stop_times timestamp:departure_time ?departure.\n" +
                 "  FILTER (?trip ="+ tripId + ")\n" +
                 "} ORDER BY ASC(?sequence) ASC(?arrival) " ;
+    }
+
+    private String queryStopById(String id){
+        return  prefix_rdfs + "\n" +
+                prefix_geo + "\n" +
+                "SELECT distinct ?label\n" +
+                "WHERE {\n" +
+                "  ?ex rdfs:label ?label.\n" +
+                "  ?ex rdfs:stop ?stop\n" +
+                "  FILTER (?stop =\"" + id + "\")\n" +
+                "}";
     }
 }
