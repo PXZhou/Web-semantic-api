@@ -15,44 +15,53 @@ import java.util.List;
 
 public class File {
 
-    public static final String _LANG_FR = "fr"; // The language of the station names
-    public static final String _OUTPUT_FORMAT = "Turtle"; // The output format
-    public static final String _UTF_8 = "UTF-8"; // Character encoding
+    private static final String _LANG_FR = "fr"; // The language of the station names
+    private static final String _OUTPUT_FORMAT = "Turtle"; // The output format
+    private static final String _UTF_8 = "UTF-8"; // Character encoding
 
     // Namespaces of the vocabularies we use
-    public static final String _EX_NS = "http://example.com/stations/";
-    public static final String _EX_NS_AGENCIES = "http://example.com/agencies/";
-    public static final String _EX_NS_TRIPS = "http://example.com/trips/";
-    public static final String _EX_NS_STOPS = "http://example.com/stops/";
-    public static final String _EX_NS_ROUTES = "http://example.com/routes/";
-    public static final String _EX_NS_DIRECTIONS = "http://example.com/directions/";
-    public static final String _EX_NS_SERVICES = "http://example.com/services/";
-    public static final String _EX_NS_DATES = "http://example.com/dates/";
-    public static final String _GEO_NS = "http://www.w3.org/2003/01/geo/wgs84_pos#";
-    public static final String _RDFS_NS = "http://www.w3.org/2000/01/rdf-schema#";
-    public static final String _TIMESTAMP_NS = "http://www.w3.org/2001/XMLSchema#timestamp";
-
+    private static final String _EX_NS = "http://example.com/stations/";
+    private static final String _EX_NS_AGENCIES = "http://example.com/agencies/";
+    private static final String _EX_NS_TRIPS = "http://example.com/trips/";
+    private static final String _EX_NS_STOP_TIMES = "http://example.com/stop-times/";
+    private static final String _EX_NS_ROUTES = "http://example.com/routes/";
+    private static final String _EX_NS_SERVICES = "http://example.com/services/";
+    private static final String _GEO_NS = "http://www.w3.org/2003/01/geo/wgs84_pos#";
+    private static final String _RDFS_NS = "http://www.w3.org/2000/01/rdf-schema#";
+    private static final String _XML_SCHEMA = "http://www.w3.org/2001/XMLSchema#";
+    private static final String _TIMESTAMP_NS = "http://www.w3.org/2001/XMLSchema#timestamp";
 
     // Prefixes
-    public static final String _EX_PREFIX = "ex";
-    public static final String _TRIP_PREFIX = "trip";
-    public static final String _AGENCY_PREFIX = "agency";
-    public static final String _STOP_PREFIX = "stop";
-    public static final String _ROUTE_PREFIX = "route";
-    public static final String _DIRECTIONS_PREFIX = "direction";
-    public static final String _SERVICE_PREFIX = "service";
-    public static final String _GEO_PREFIX = "geo";
-    public static final String _RDFS_PREFIX = "rdfs";
-    public static final String _TIMESTAMP_PREFIX = "timestamp";
-    public static final String _DATE_PREFIX = "date";
+    private static final String _EX_PREFIX = "ex";
+    private static final String _TRIP_PREFIX = "trip";
+    private static final String _AGENCY_PREFIX = "agency";
+    private static final String _ROUTE_PREFIX = "route";
+    private static final String _SERVICE_PREFIX = "service";
+    private static final String _GEO_PREFIX = "geo";
+    private static final String _RDFS_PREFIX = "rdfs";
+    private static final String _TIMESTAMP_PREFIX = "timestamp";
+    private static final String _XML_PREFIX = "xml";
+    private static final String _STOP_TIMES_PREFIX = "stop_times";
 
     // THE IRIs of the geo: terms we are using
-    public static final String _GEO_LAT = "http://www.w3.org/2003/01/geo/wgs84_pos#lat";
-    public static final String _GEO_LONG = "http://www.w3.org/2003/01/geo/wgs84_pos#long";
-    public static final String _GEO_SPATIAL_THING = "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing";
-    public static final String _RDFS_NAME = "http://www.w3.org/2000/01/rdf-schema#name";
-    public static final String _RDFS_URL = "http://www.w3.org/2000/01/rdf-schema#url";
-    public static final String _RDFS_LANGUE = "http://www.w3.org/2000/01/rdf-schema#langue";
+    private static final String _GEO_LAT = "http://www.w3.org/2003/01/geo/wgs84_pos#lat";
+    private static final String _GEO_LONG = "http://www.w3.org/2003/01/geo/wgs84_pos#long";
+    private static final String _GEO_SPATIAL_THING = "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing";
+    private static final String _RDFS_NAME = "http://www.w3.org/2000/01/rdf-schema#name";
+    private static final String _RDFS_URL = "http://www.w3.org/2000/01/rdf-schema#url";
+    private static final String _RDFS_LANGUE = "http://www.w3.org/2000/01/rdf-schema#langue";
+    private static final String _TIMESTAMP_XML = "http://www.w3.org/2001/XMLSchema#timestamp";
+    private static final String _RDFS_STOP = "http://www.w3.org/2000/01/rdf-schema#stop";
+    private static final String _RDFS_TRIP = "http://www.w3.org/2000/01/rdf-schema#trip";
+    private static final String _RDFS_STOP_SEQUENCE = "http://www.w3.org/2000/01/rdf-schema#stop-sequence";
+    private static final String _RDFS_HEADSIGN = "http://www.w3.org/2000/01/rdf-schema#headsign";
+    private static final String _RDFS_DIRECTION = "http://www.w3.org/2000/01/rdf-schema#direction";
+    private static final String _RDFS_ROUTE = "http://www.w3.org/2000/01/rdf-schema#route";
+    private static final String _RDFS_SERVICE = "http://www.w3.org/2000/01/rdf-schema#service";
+    private static final String _RDFS_AGENCY = "http://www.w3.org/2000/01/rdf-schema#agency";
+    private static final String _RDFS_ROUTE_TYPE = "http://www.w3.org/2000/01/rdf-schema#route-type";
+    private static final String _RDFS_DATE = "http://www.w3.org/2000/01/rdf-schema#date";
+    private static final String _RDFS_EXCEPTION_TYPE = "http://www.w3.org/2000/01/rdf-schema#exception-type";
 
     public String url_rdf;
     public String url_text;
@@ -66,13 +75,13 @@ public class File {
 
         Model stationGraph = ModelFactory.createDefaultModel();
 
-        stationGraph.setNsPrefix(_EX_PREFIX,_EX_NS_AGENCIES);
+        stationGraph.setNsPrefix(_AGENCY_PREFIX,_EX_NS_AGENCIES);
         stationGraph.setNsPrefix(_RDFS_PREFIX,_RDFS_NS);
-
+        stationGraph.setNsPrefix(_XML_PREFIX, _XML_SCHEMA);
 
         Property name = stationGraph.createProperty(_RDFS_NAME);
         Property url = stationGraph.createProperty(_RDFS_URL);
-        Property timezone = stationGraph.createProperty(_TIMESTAMP_NS);
+        Property timezone = stationGraph.createProperty(_TIMESTAMP_XML);
         Property lang = stationGraph.createProperty(_RDFS_LANGUE);
 
         CSVParser parser = CSVParser.create(this.url_text);
@@ -121,17 +130,16 @@ public class File {
     public void generateStopTimes(){
         Model stopTimesGraph = ModelFactory.createDefaultModel();
 
-        stopTimesGraph.setNsPrefix(_TRIP_PREFIX,_EX_NS_TRIPS);
-        stopTimesGraph.setNsPrefix(_STOP_PREFIX,_EX_NS_STOPS);
+        stopTimesGraph.setNsPrefix(_STOP_TIMES_PREFIX,_EX_NS_STOP_TIMES);
         stopTimesGraph.setNsPrefix(_RDFS_PREFIX,_RDFS_NS);
         stopTimesGraph.setNsPrefix(_TIMESTAMP_PREFIX, _TIMESTAMP_NS);
 
         CSVParser parser = CSVParser.create(this.url_text);
         parser.parse1();
 
-        Property stop = stopTimesGraph.createProperty(_EX_NS_STOPS);
-        Property trip = stopTimesGraph.createProperty(_EX_NS_TRIPS);
-        Property stopSequence = stopTimesGraph.createProperty("Stop Sequence");
+        Property stop = stopTimesGraph.createProperty(_RDFS_STOP);
+        Property trip = stopTimesGraph.createProperty(_RDFS_TRIP);
+        Property stopSequence = stopTimesGraph.createProperty(_RDFS_STOP_SEQUENCE);
         int compteur = 0;
 
         for(List<String> line : parser) {
@@ -141,10 +149,10 @@ public class File {
             String departure_time = line.get(2);
             String stop_id = line.get(3);
             String stop_sequence = line.get(4);
-            String stop_headsign = line.get(5);
+
             compteur ++;
             try {
-                String stop_time_iri = "http://example.com/stop_times/" + URLEncoder.encode(String.valueOf(compteur),_UTF_8);
+                String stop_time_iri = _EX_NS_STOP_TIMES  + URLEncoder.encode(String.valueOf(compteur),_UTF_8);
 
                 Resource stop_time = stopTimesGraph.createResource(stop_time_iri);
 
@@ -192,6 +200,7 @@ public class File {
         Resource geo_SpatialThing = stationGraph.createResource(_GEO_SPATIAL_THING);
         Property geo_lat = stationGraph.createProperty(_GEO_LAT);
         Property geo_long = stationGraph.createProperty(_GEO_LONG);
+        Property ex_stop = stationGraph.createProperty(_RDFS_STOP);
 
         // Initialise a CSV parser
         CSVParser parser = CSVParser.create(this.url_text);
@@ -227,6 +236,7 @@ public class File {
                 stop.addProperty(geo_lat,stop_lat, XSDDatatype.XSDdecimal);
                 stop.addProperty(geo_long,stop_long,XSDDatatype.XSDdecimal);
 
+                stop.addProperty(ex_stop,stop_id);
             } catch (UnsupportedEncodingException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -254,18 +264,16 @@ public class File {
         Model stationGraph = ModelFactory.createDefaultModel();
 
         stationGraph.setNsPrefix(_TRIP_PREFIX,_EX_NS_TRIPS);
-        stationGraph.setNsPrefix("route","http://example.com/routes/");
-        stationGraph.setNsPrefix(_SERVICE_PREFIX,_EX_NS_SERVICES);
-        stationGraph.setNsPrefix("direction","http://example.com/directions/");
         stationGraph.setNsPrefix(_RDFS_PREFIX,_RDFS_NS);
 
         CSVParser parser = CSVParser.create(this.url_text);
         parser.parse1();
 
-        Property route = stationGraph.createProperty("http://example.com/routes/");
-        Property service = stationGraph.createProperty(_EX_NS_SERVICES);
-        Property direction = stationGraph.createProperty("http://example.com/directions/");
-        Property headsign = stationGraph.createProperty("headsign");
+        Property route = stationGraph.createProperty(_RDFS_ROUTE);
+        Property service = stationGraph.createProperty(_RDFS_SERVICE);
+        Property direction = stationGraph.createProperty(_RDFS_DIRECTION);
+        Property headsign = stationGraph.createProperty(_RDFS_HEADSIGN);
+        Property tripId = stationGraph.createProperty(_RDFS_TRIP);
 
         for(List<String> line : parser) {
 
@@ -282,6 +290,7 @@ public class File {
 
                 Resource trip = stationGraph.createResource(trip_iri);
 
+                trip.addProperty(tripId, trip_id);
                 trip.addProperty(route, route_id);
                 trip.addProperty(service, service_id);
                 trip.addProperty(direction, direction_id);
@@ -313,15 +322,15 @@ public class File {
         Model routeGraph = ModelFactory.createDefaultModel();
 
         routeGraph.setNsPrefix(_ROUTE_PREFIX,_EX_NS_ROUTES);
-        routeGraph.setNsPrefix(_AGENCY_PREFIX,_EX_NS_AGENCIES);
         routeGraph.setNsPrefix(_RDFS_PREFIX,_RDFS_NS);
 
         CSVParser parser = CSVParser.create(this.url_text);
 
         parser.parse1();
 
-        Property agency = routeGraph.createProperty(_EX_NS_AGENCIES);
-        Property routeType = routeGraph.createProperty("Route Type");
+        Property agency = routeGraph.createProperty(_RDFS_AGENCY);
+        Property routeType = routeGraph.createProperty(_RDFS_ROUTE_TYPE);
+        Property routeId = routeGraph.createProperty(_RDFS_ROUTE);
 
         for(List<String> line : parser) {
 
@@ -336,6 +345,7 @@ public class File {
                 Resource route = routeGraph.createResource(route_iri);
 
                 route.addProperty(agency, agency_id);
+                route.addProperty(routeId, route_id);
                 route.addProperty(RDFS.label,route_long_name);
                 route.addProperty(routeType,route_type);
 
@@ -364,10 +374,9 @@ public class File {
         Model calendarDatesGraph = ModelFactory.createDefaultModel();
 
         calendarDatesGraph.setNsPrefix(_SERVICE_PREFIX,_EX_NS_SERVICES);
-        calendarDatesGraph.setNsPrefix(_DATE_PREFIX,_EX_NS_DATES);
 
-        Property exceptionType =  calendarDatesGraph.createProperty("Exception Type");
-        Property dates =  calendarDatesGraph.createProperty(_EX_NS_DATES);
+        Property exceptionType =  calendarDatesGraph.createProperty(_RDFS_EXCEPTION_TYPE);
+        Property dates =  calendarDatesGraph.createProperty(_RDFS_DATE);
         Property services =  calendarDatesGraph.createProperty(_EX_NS_SERVICES);
 
         CSVParser parser = CSVParser.create(this.url_text);

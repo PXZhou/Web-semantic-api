@@ -38,9 +38,27 @@ public class InformationsController {
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "information/route/which", method = RequestMethod.GET)
+    public ResponseEntity<?> getAllStopTimes(@RequestParam("stop") String stop) throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getRouteFromStop(stop)));
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "information/route", method = RequestMethod.GET)
+    public ResponseEntity<?> getAllStopTimesFromRoutes(@RequestParam("id") String id) throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getAllInformationFromRoutes(id)));
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "information/trip", method = RequestMethod.GET)
+    public ResponseEntity<?> getAllStopTimesFromTrip(@RequestParam("id") String id) throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getAllInformationFromTrip(id)));
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "stops", method = RequestMethod.GET)
     public ResponseEntity<?> getDetailsStop(@RequestParam("stop") String stop) throws IOException {
-        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getLagLong(stop)));
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getInformationFromStop(stop)));
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
