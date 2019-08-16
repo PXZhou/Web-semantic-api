@@ -153,27 +153,6 @@ public class QueryService {
         return details;
     }
 
-    public JSONObject getAllInformationFromRoutes(String routeId) throws FileNotFoundException {
-
-        String[] ListPath = new String[] {"data/ttl/trips.ttl"};
-        QueryExecution qe = getResultSet(queryTripByRoutes(routeId), ListPath);
-        ResultSet rs = qe.execSelect();
-        JSONObject details = new JSONObject();
-        ArrayList<JSONObject> listInformation = new ArrayList<>();
-        while (rs.hasNext()) {
-            QuerySolution qs = rs.next();
-            JSONObject information = new JSONObject();
-            information.put("direction", qs.getLiteral("direction").getLexicalForm());
-            information.put("service", qs.getLiteral("service").getLexicalForm());
-            information.put("trip_id", qs.getLiteral("trip_id").getLexicalForm());
-
-            listInformation.add(information);
-        }
-        qe.close();
-        details.put("Trips", listInformation);
-        return details;
-    }
-
     private QueryExecution getResultSet(String sparql, String[] listPath) throws FileNotFoundException {
         Query qry = QueryFactory.create(sparql);
         Model model= ModelFactory.createDefaultModel();
@@ -182,44 +161,6 @@ public class QueryService {
         }
         QueryExecution qe = QueryExecutionFactory.create(qry, model);
         return qe;
-    }
-
-    private String queryRoutesById(String routeId) {
-        return  prefix_rdfs + "\n" +
-                prefix_routes + "\n" +
-                "SELECT Distinct ?agency ?label ?route_id \n" +
-                "WHERE {\n" +
-                "  ?route rdfs:agency ?agency.\n" +
-                "  ?route rdfs:label ?label.\n" +
-                "  ?route rdfs:route ?route_id\n" +
-                "  FILTER (?route_id =\"" + routeId + "\")\n" +
-                "}" ;
-    }
-
-    private String queryTripById(String tripId) {
-        return  prefix_rdfs + "\n" +
-                prefix_trips + "\n" +
-                "SELECT Distinct ?direction ?service ?route\n" +
-                "WHERE {\n" +
-                "  ?trip rdfs:direction ?direction.\n" +
-                "  ?trip rdfs:service ?service.\n" +
-                "  ?trip rdfs:route ?route.\n" +
-                "  ?trip rdfs:trip ?trip_id\n" +
-                "  FILTER (?trip_id =\"" + tripId + "\")\n" +
-                "} ORDER BY ASC(?direction)" ;
-    }
-
-    private String queryTripByRoutes(String routeId) {
-        return  prefix_rdfs + "\n" +
-                prefix_trips + "\n" +
-                "SELECT Distinct ?direction ?service ?trip_id\n" +
-                "WHERE {\n" +
-                "  ?trip rdfs:direction ?direction.\n" +
-                "  ?trip rdfs:service ?service.\n" +
-                "  ?trip rdfs:route ?route.\n" +
-                "  ?trip rdfs:trip ?trip_id\n" +
-                "  FILTER (?route =" + routeId + ")\n" +
-                "} ORDER BY ASC(?direction)  ASC(?service)" ;
     }
 
     private String queryStopTimesByStopId(String stopId) {
@@ -237,31 +178,6 @@ public class QueryService {
                 "  ?stop_times rdfs:stop ?stop\n" +
                 "  FILTER (?stop =" + stopId + ")\n" +
                 "}\n ORDER BY ASC(?arrival) " ;
-    }
-
-    private String queryStopTimesByTripId(String tripId) {
-        return prefix_rdfs + "\n" +
-                prefix_timestamp + "\n" +
-                prefix_stop_times + "\n" +
-                "SELECT Distinct ?stop ?arrival ?departure\n" +
-                "WHERE {\n" +
-                "  ?stop_times rdfs:stop ?stop.\n" +
-                "  ?stop_times rdfs:trip ?trip.\n" +
-                "  ?stop_times timestamp:arrival_time ?arrival.\n" +
-                "  ?stop_times timestamp:departure_time ?departure.\n" +
-                "  FILTER (?trip ="+ tripId + ")\n" +
-                "} ORDER BY ASC(?sequence) ASC(?arrival) " ;
-    }
-
-    private String queryStopById(String id){
-        return  prefix_rdfs + "\n" +
-                prefix_geo + "\n" +
-                "SELECT distinct ?label\n" +
-                "WHERE {\n" +
-                "  ?ex rdfs:label ?label.\n" +
-                "  ?ex rdfs:stop ?stop\n" +
-                "  FILTER (?stop =\"" + id + "\")\n" +
-                "}";
     }
 
     private String queryRoutesFromStopId(String stopId) {
