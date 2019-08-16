@@ -21,7 +21,7 @@ public class ConvertTextController {
         convertTextService.createFileStops();
         convertTextService.createFileStopTimes();
         convertTextService.createFileTrip();
-
+        convertTextService.createCalendar();
         return ResponseEntity.accepted().body("Create");
     }
 

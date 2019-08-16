@@ -13,6 +13,7 @@ public class Informations {
     public Double longitude;
 
     public static final String _API_GOOGLE_GEO = "https://maps.googleapis.com/maps/api/geocode/json";
+    public static final String _API_GOOGLE_DISTANCE = "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&departure_time=now&mode=driving|walking|bicycling";
     public static final String _KEY_API_GOOGLE = "AIzaSyBuynhWROWJ7_xoPMJPtiZ3HZ-Maxjx8Qk";
 
     public static final String _API_OPEN_WEATHER = "https://api.openweathermap.org/data/2.5/weather";
@@ -51,5 +52,9 @@ public class Informations {
 
     public JSONObject infoWeather() throws IOException, JSONException {
         return readJsonFromUrl(_API_OPEN_WEATHER + "?lat=" + this.latitude + "&lon=" + this.longitude + "&appid=" + _KEY_API_OPEN_WEATHER + "&lang=fr&units=metric");
+    }
+
+    public JSONObject infoDistance(Double latitude, Double longitude) throws IOException, JSONException {
+        return readJsonFromUrl(_API_GOOGLE_DISTANCE + "&origins=" + this.latitude + "," + this.longitude + "&destinations=" + latitude + "%2C" + longitude + "&key=" + _KEY_API_GOOGLE);
     }
 }

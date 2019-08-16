@@ -32,6 +32,17 @@ public class InformationsController {
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "information/distance", method = RequestMethod.GET)
+    public ResponseEntity<?> getInformationDistance(@RequestParam("latitude") Double latitude, @RequestParam ("longitude") Double longitude, @RequestParam("stop") String stopId) throws IOException {
+        JSONObject distance = jsonService.getInformationsDistance(latitude,longitude,stopId);
+        if (distance == null) {
+            return ResponseEntity.notFound().build();
+        } else {
+            return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", distance));
+        }
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "stops/all", method = RequestMethod.GET)
     public ResponseEntity<?> getAllStops() throws IOException {
         return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getAllStop()));
@@ -65,6 +76,12 @@ public class InformationsController {
     @RequestMapping(value = "stops", method = RequestMethod.GET)
     public ResponseEntity<?> getDetailsStop(@RequestParam("stop") String stop) throws IOException {
         return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getInformationFromStop(stop)));
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "information/calendar", method = RequestMethod.GET)
+    public ResponseEntity<?> getDetailsCalendar(@RequestParam("service") String id) throws IOException {
+        return ResponseEntity.accepted().body(jsonService.JsonObjectToString("data", queryService.getCalendarFromService(id)));
     }
 
     @CrossOrigin(origins = "http://localhost:4200")

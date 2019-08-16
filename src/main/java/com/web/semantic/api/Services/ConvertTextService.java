@@ -34,4 +34,9 @@ public class ConvertTextService {
         File calendarDates = new File("data\\ttl\\calendar_dates.ttl","data\\gtfs\\calendar_dates.txt");
         calendarDates.generateCalendarDates();
     }
+
+    public void createCalendar() {
+        File calendarDates = new File("data\\ttl\\calendar.ttl","data\\gtfs\\calendar.txt");
+        calendarDates.generateCalendar();
+    }
 }

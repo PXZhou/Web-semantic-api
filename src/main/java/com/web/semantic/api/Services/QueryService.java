@@ -11,6 +11,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 
+
 @Service
 public class QueryService {
 
@@ -21,8 +22,10 @@ public class QueryService {
     private final String prefix_trips = "PREFIX trip:  <http://example.com/trips/>";
     private final String prefix_stop_times = "PREFIX stop_times: <http://example.com/stop-times/>";
     private final String prefix_routes = "PREFIX route: <http://example.com/routes/>";
+    private final String prefix_calendar = "PREFIX calendar: <http://example.com/calendar/>";
 
     public JSONObject  getAllStop() throws FileNotFoundException {
+        String[] ListPath = new String[] {"data/ttl/stops.ttl"};
         String sparql = prefix_rdfs  + "\n" +
                 prefix_stations + "\n" +
                 "\n" +
@@ -31,7 +34,7 @@ public class QueryService {
                 "  ?ex rdfs:label ?label\n" +
                 "}\n";
 
-        QueryExecution qe = getResultSet(sparql, "data/ttl/stops.ttl");
+        QueryExecution qe = getResultSet(sparql, ListPath);
         ResultSet rs = qe.execSelect();
         JSONObject jsonObject = new JSONObject();
         ArrayList<String> listNameStops = new ArrayList<String>();
@@ -44,7 +47,23 @@ public class QueryService {
         return jsonObject;
     }
 
-    public JSONObject getInformationFromStop(String nameStop) throws FileNotFoundException {
+    public JSONObject getCalendarFromService(String serviceId) throws  FileNotFoundException {
+        String[] ListPath = new String[] {"data/ttl/calendar.ttl"};
+
+        QueryExecution qe = getResultSet(queryCalendarFromService(serviceId), ListPath);
+        ResultSet rs = qe.execSelect();
+        JSONObject details = new JSONObject();
+        while (rs.hasNext()) {
+            QuerySolution qs = rs.next();
+            details.put("days", qs.getLiteral("days").getLexicalForm());
+            details.put("start_date", qs.getLiteral("start_date").getLexicalForm());
+            details.put("end_date", qs.getLiteral("end_date").getLexicalForm());
+        }
+        qe.close();
+        return details;
+    }
+
+    public JSONObject getInformationFromStop(String param) throws FileNotFoundException {
         String sparql =  prefix_rdfs + "\n" +
                 prefix_geo + "\n" +
                 "SELECT distinct ?lat ?long ?stop\n" +
@@ -53,9 +72,11 @@ public class QueryService {
                 "  ?ex geo:lat ?lat.\n" +
                 "  ?ex geo:long ?long.\n" +
                 "  ?ex rdfs:stop ?stop\n" +
-                "  FILTER (?label =" + nameStop + "@fr)\n" +
+                "  FILTER (?label =" + param + "@fr || ?stop= "+ param+
+                ")\n" +
                 "}";
-        QueryExecution qe = getResultSet(sparql, "data/ttl/stops.ttl");
+        String[] ListPath = new String[] {"data/ttl/stops.ttl"};
+        QueryExecution qe = getResultSet(sparql, ListPath);
         ResultSet rs = qe.execSelect();
         JSONObject details = new JSONObject();
         while (rs.hasNext()) {
@@ -69,7 +90,8 @@ public class QueryService {
     }
 
     public JSONObject getStopTimesFromStop(String stopId) throws FileNotFoundException {
-        QueryExecution qe = getResultSet(queryStopTimesByStopId(stopId), "data/ttl/stop_times.ttl");
+        String[] ListPath = new String[] {"data/ttl/stop_times.ttl", "data/ttl/trips.ttl"};
+        QueryExecution qe = getResultSet(queryStopTimesByStopId(stopId), ListPath);
         ResultSet rs = qe.execSelect();
         JSONObject details = new JSONObject();
         ArrayList<JSONObject> listInformation = new ArrayList<>();
@@ -78,7 +100,8 @@ public class QueryService {
             JSONObject oneStopTime = new JSONObject();
             oneStopTime.put("arrival", qs.getLiteral("arrival").getLexicalForm());
             oneStopTime.put("departure", qs.getLiteral("departure").getLexicalForm());
-            oneStopTime.put("trip", qs.getLiteral("trip").getLexicalForm());
+            oneStopTime.put("trip", qs.getLiteral("trip_id").getLexicalForm());
+            oneStopTime.put("service", qs.getLiteral("service").getLexicalForm());
             listInformation.add(oneStopTime);
         }
         details.put("stop_times", listInformation);
@@ -87,30 +110,14 @@ public class QueryService {
 
     public JSONObject getRouteFromStop(String stopId) throws FileNotFoundException {
 
-        QueryExecution qe = getResultSet(queryStopTimesByStopId(stopId), "data/ttl/stop_times.ttl");
-        ResultSet rs = qe.execSelect();
+        String[] ListPath = new String[] {"data/ttl/stop_times.ttl", "data/ttl/trips.ttl", "data/ttl/routes.ttl"};
+
         JSONObject details = new JSONObject();
-
-        String routeId = null;
-        if (rs.hasNext()) {
-            QuerySolution qs = rs.next();
-            QueryExecution qeTrip = getResultSet(queryTripById(qs.getLiteral("trip").getLexicalForm()), "data/ttl/trips.ttl");
-            ResultSet rsTrip = qeTrip.execSelect();
-
-            if (rsTrip.hasNext()) {
-                QuerySolution qsTrip = rsTrip.next();
-                routeId = qsTrip.getLiteral("route").getLexicalForm();
-            }
-            qeTrip.close();
-        }
-
-        qe.close();
-
         JSONObject informationRoutes = new JSONObject();
 
-        qe = getResultSet(queryRoutesById(routeId), "data/ttl/routes.ttl");
+        QueryExecution qe = getResultSet(queryRoutesFromStopId(stopId), ListPath);
 
-        rs = qe.execSelect();
+        ResultSet rs = qe.execSelect();
         if (rs.hasNext()) {
             QuerySolution qs = rs.next();
             informationRoutes.put("agency", qs.getLiteral("agency").getLexicalForm());
@@ -118,11 +125,14 @@ public class QueryService {
             informationRoutes.put("id", qs.getLiteral("route_id").getLexicalForm());
         }
         details.put("Routes", informationRoutes);
+        qe.close();
         return details;
     }
 
     public JSONObject getAllInformationFromTrip(String tripId) throws FileNotFoundException {
-        QueryExecution qeStopTimes = getResultSet(queryStopTimesByTripId(tripId), "data/ttl/stop_times.ttl");
+
+        String[] ListPath = new String[] {"data/ttl/stop_times.ttl", "data/ttl/stops.ttl", "data/ttl/trips.ttl"};
+        QueryExecution qeStopTimes = getResultSet(queryStopAndStopTimesFromTripId(tripId), ListPath);
         ResultSet rsTrip = qeStopTimes.execSelect();
 
         JSONObject details = new JSONObject();
@@ -133,13 +143,9 @@ public class QueryService {
             JSONObject informationStopTimes = new JSONObject();
             informationStopTimes.put("arrival", qsTrip.getLiteral("arrival").getLexicalForm());
             informationStopTimes.put("departure", qsTrip.getLiteral("departure").getLexicalForm());
-
-            QueryExecution qe = getResultSet(queryStopById(qsTrip.getLiteral("stop").getLexicalForm()), "data/ttl/stops.ttl");
-            ResultSet rs = qe.execSelect();
-            QuerySolution qs = rs.next();
-            informationStopTimes.put("name", qs.getLiteral("label").getLexicalForm());
-            qe.close();
-
+            informationStopTimes.put("name", qsTrip.getLiteral("label").getLexicalForm());
+            informationStopTimes.put("longitude", qsTrip.getLiteral("longitude").getLexicalForm());
+            informationStopTimes.put("latitude", qsTrip.getLiteral("latitude").getLexicalForm());
             listInformationStopTimes.add(informationStopTimes);
         }
         qeStopTimes.close();
@@ -149,7 +155,8 @@ public class QueryService {
 
     public JSONObject getAllInformationFromRoutes(String routeId) throws FileNotFoundException {
 
-        QueryExecution qe = getResultSet(queryTripByRoutes(routeId), "data/ttl/trips.ttl");
+        String[] ListPath = new String[] {"data/ttl/trips.ttl"};
+        QueryExecution qe = getResultSet(queryTripByRoutes(routeId), ListPath);
         ResultSet rs = qe.execSelect();
         JSONObject details = new JSONObject();
         ArrayList<JSONObject> listInformation = new ArrayList<>();
@@ -166,10 +173,13 @@ public class QueryService {
         details.put("Trips", listInformation);
         return details;
     }
-    private QueryExecution getResultSet(String sparql, String path) throws FileNotFoundException {
+
+    private QueryExecution getResultSet(String sparql, String[] listPath) throws FileNotFoundException {
         Query qry = QueryFactory.create(sparql);
         Model model= ModelFactory.createDefaultModel();
-        model.read(new FileInputStream(path),null, "ttl");
+        for (int i = 0; i <listPath.length; i++) {
+            model.read(new FileInputStream(listPath[i]),null, "ttl");
+        }
         QueryExecution qe = QueryExecutionFactory.create(qry, model);
         return qe;
     }
@@ -216,10 +226,12 @@ public class QueryService {
         return prefix_rdfs + "\n" +
                 prefix_timestamp + "\n" +
                 prefix_stop_times + "\n" +
-                "SELECT Distinct ?sequence ?trip ?arrival ?departure\n" +
+                prefix_trips + "\n" +
+                "SELECT Distinct ?service ?trip_id ?arrival ?departure\n" +
                 "WHERE {\n" +
-                "  ?stop_times rdfs:stop-sequence ?sequence.\n" +
-                "  ?stop_times rdfs:trip ?trip.\n" +
+                "  ?stop_times rdfs:trip ?trip_id.\n" +
+                "  ?trip rdfs:trip ?trip_id.\n" +
+                "  ?trip rdfs:service ?service.\n" +
                 "  ?stop_times timestamp:arrival_time ?arrival.\n" +
                 "  ?stop_times timestamp:departure_time ?departure.\n" +
                 "  ?stop_times rdfs:stop ?stop\n" +
@@ -250,5 +262,60 @@ public class QueryService {
                 "  ?ex rdfs:stop ?stop\n" +
                 "  FILTER (?stop =\"" + id + "\")\n" +
                 "}";
+    }
+
+    private String queryRoutesFromStopId(String stopId) {
+        return  prefix_rdfs +"\n" +
+                prefix_trips + "\n" +
+                prefix_stop_times + "\n" +
+                prefix_timestamp + "\n" +
+                prefix_routes + "\n" +
+                "SELECT Distinct ?label ?route_id ?agency\n" +
+                "WHERE {\n" +
+                "  ?stop_times rdfs:stop ?stop.\n" +
+                "  ?stop_times rdfs:trip ?trip_id.\n" +
+                "  ?trip rdfs:trip ?trip_id.\n" +
+                "  ?trip rdfs:route ?route_id.\n" +
+                "  ?route rdfs:route ?route_id.\n" +
+                "  ?route rdfs:label ?label.\n" +
+                "  ?route rdfs:agency ?agency\n" +
+                "  FILTER (?stop = "+ stopId + ")\n" +
+                "}";
+    }
+
+    private String queryStopAndStopTimesFromTripId(String tripId) {
+        return  prefix_rdfs + "\n" +
+                prefix_stop_times + "\n" +
+                prefix_timestamp + "\n" +
+                prefix_geo + "\n" +
+                prefix_routes +"\n" +
+                prefix_trips + "\n" +
+                "SELECT Distinct ?label ?longitude ?latitude ?arrival ?departure ?service\n" +
+                "WHERE {\n" +
+                "  ?stop_times rdfs:stop ?stop_id.\n" +
+                "  ?stop_times rdfs:trip ?trip_id.\n" +
+                "  ?trip rdfs:trip ?trip_id. \n" +
+                "  ?trip rdfs:service ?service. \n" +
+                "  ?stop_times timestamp:arrival_time ?arrival.\n" +
+                "  ?stop_times timestamp:departure_time ?departure.\n" +
+                "  ?ex rdfs:stop ?stop_id.\n" +
+                "  ?ex geo:long ?longitude.\n" +
+                "  ?ex geo:lat ?latitude.\n" +
+                "  ?ex rdfs:label ?label.\n" +
+                "  FILTER (?trip_id = " + tripId + ")\n" +
+                "} ORDER BY ASC(?arrival)\n";
+    }
+
+    private String queryCalendarFromService(String serviceId) {
+        return  prefix_rdfs + "\n" +
+                prefix_calendar + "\n" +
+                "SELECT Distinct ?days ?start_date ?end_date \n" +
+                "WHERE {\n" +
+                "  ?calendar rdfs:service ?service_id.\n" +
+                "  ?calendar rdfs:days ?days.\n" +
+                "  ?calendar rdfs:start-date ?start_date.\n" +
+                "  ?calendar rdfs:end-date ?end_date\n" +
+                "  FILTER (?service_id = "+ serviceId +")" +
+                "} ";
     }
 }

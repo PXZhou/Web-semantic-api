@@ -11,6 +11,7 @@ import org.apache.jena.vocabulary.RDFS;
 
 import java.io.*;
 import java.net.URLEncoder;
+import java.util.Arrays;
 import java.util.List;
 
 public class File {
@@ -26,6 +27,7 @@ public class File {
     private static final String _EX_NS_STOP_TIMES = "http://example.com/stop-times/";
     private static final String _EX_NS_ROUTES = "http://example.com/routes/";
     private static final String _EX_NS_SERVICES = "http://example.com/services/";
+    private static final String _EX_NS_CALENDAR = "http://example.com/calendar/";
     private static final String _GEO_NS = "http://www.w3.org/2003/01/geo/wgs84_pos#";
     private static final String _RDFS_NS = "http://www.w3.org/2000/01/rdf-schema#";
     private static final String _XML_SCHEMA = "http://www.w3.org/2001/XMLSchema#";
@@ -42,6 +44,7 @@ public class File {
     private static final String _TIMESTAMP_PREFIX = "timestamp";
     private static final String _XML_PREFIX = "xml";
     private static final String _STOP_TIMES_PREFIX = "stop_times";
+    private static final String _CALENDAR_PREFIX = "calendar";
 
     // THE IRIs of the geo: terms we are using
     private static final String _GEO_LAT = "http://www.w3.org/2003/01/geo/wgs84_pos#lat";
@@ -61,6 +64,9 @@ public class File {
     private static final String _RDFS_AGENCY = "http://www.w3.org/2000/01/rdf-schema#agency";
     private static final String _RDFS_ROUTE_TYPE = "http://www.w3.org/2000/01/rdf-schema#route-type";
     private static final String _RDFS_DATE = "http://www.w3.org/2000/01/rdf-schema#date";
+    private static final String _RDFS_DAYS = "http://www.w3.org/2000/01/rdf-schema#days";
+    private static final String _RDFS_START_DAYS = "http://www.w3.org/2000/01/rdf-schema#start-date";
+    private static final String _RDFS_END_DAYS = "http://www.w3.org/2000/01/rdf-schema#end-date";
     private static final String _RDFS_EXCEPTION_TYPE = "http://www.w3.org/2000/01/rdf-schema#exception-type";
 
     public String url_rdf;
@@ -69,6 +75,68 @@ public class File {
     public File(String url_rdf, String url_text) {
         this.url_rdf = url_rdf;
         this.url_text = url_text;
+    }
+
+    public void generateCalendar() {
+
+        Model stationGraph = ModelFactory.createDefaultModel();
+
+        stationGraph.setNsPrefix(_RDFS_PREFIX,_RDFS_NS);
+        stationGraph.setNsPrefix(_CALENDAR_PREFIX,_EX_NS_CALENDAR);
+
+        Property service = stationGraph.createProperty(_RDFS_SERVICE);
+        Property days = stationGraph.createProperty(_RDFS_DAYS);
+        Property startDay = stationGraph.createProperty(_RDFS_START_DAYS);
+        Property endDay = stationGraph.createProperty(_RDFS_END_DAYS);
+
+        CSVParser parser = CSVParser.create(this.url_text);
+        parser.parse1();
+
+        int compteur = 0;
+        for(List<String> line : parser) {
+
+            String service_id = line.get(0);
+            String[] daysArray = new String[] {
+                    line.get(1),
+                    line.get(2),
+                    line.get(3),
+                    line.get(4),
+                    line.get(5),
+                    line.get(6),
+                    line.get(7)
+            };
+            String start_date = line.get(8);
+            String end_date = line.get(9);
+
+            try {
+                compteur++;
+                String calendar_iri = _EX_NS_CALENDAR + URLEncoder.encode(String.valueOf(compteur),_UTF_8);
+                Resource calendar = stationGraph.createResource(calendar_iri);
+
+                calendar.addProperty(service,service_id);
+                calendar.addProperty(days, Arrays.toString(daysArray));
+                calendar.addProperty(startDay,start_date);
+                calendar.addProperty(endDay,end_date);
+
+            } catch (UnsupportedEncodingException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+
+        // We have to catch I/O exceptions in case the file is not writable
+        try {
+
+            // An output stream to save the generated RDF graph
+            OutputStream output = new FileOutputStream(new java.io.File(this.url_rdf));
+
+            // Save the RDF graph to a file
+            stationGraph.write(output,_OUTPUT_FORMAT);
+
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
     public void generateAgency() {
