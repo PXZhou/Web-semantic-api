@@ -113,18 +113,20 @@ public class QueryService {
         String[] ListPath = new String[] {"data/ttl/stop_times.ttl", "data/ttl/trips.ttl", "data/ttl/routes.ttl"};
 
         JSONObject details = new JSONObject();
-        JSONObject informationRoutes = new JSONObject();
 
         QueryExecution qe = getResultSet(queryRoutesFromStopId(stopId), ListPath);
-
+        System.out.println(queryRoutesFromStopId(stopId));
+        ArrayList<JSONObject> listInformation = new ArrayList<>();
         ResultSet rs = qe.execSelect();
-        if (rs.hasNext()) {
+        while (rs.hasNext()) {
             QuerySolution qs = rs.next();
+            JSONObject informationRoutes = new JSONObject();
             informationRoutes.put("agency", qs.getLiteral("agency").getLexicalForm());
             informationRoutes.put("label", qs.getLiteral("label").getLexicalForm());
             informationRoutes.put("id", qs.getLiteral("route_id").getLexicalForm());
+            listInformation.add(informationRoutes);
         }
-        details.put("Routes", informationRoutes);
+        details.put("Routes", listInformation);
         qe.close();
         return details;
     }
@@ -195,7 +197,7 @@ public class QueryService {
                 "  ?route rdfs:route ?route_id.\n" +
                 "  ?route rdfs:label ?label.\n" +
                 "  ?route rdfs:agency ?agency\n" +
-                "  FILTER (?stop = "+ stopId + ")\n" +
+                "  FILTER contains(?stop,"+ stopId +")\n" +
                 "}";
     }
 
