@@ -178,7 +178,7 @@ public class QueryService {
                 "  ?stop_times timestamp:arrival_time ?arrival.\n" +
                 "  ?stop_times timestamp:departure_time ?departure.\n" +
                 "  ?stop_times rdfs:stop ?stop\n" +
-                "  FILTER (?stop =" + stopId + ")\n" +
+                "  FILTER contains(?stop," + stopId + ")\n" +
                 "}\n ORDER BY ASC(?arrival) " ;
     }
 
